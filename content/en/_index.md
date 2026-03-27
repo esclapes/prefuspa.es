@@ -1,5 +1,5 @@
 ---
-title: "Sustainable Prefab Homes in Alicante, Spain | PREFUSPA"
+title: "Sustainable Prefab Homes in Alicante, Spain"
 translationKey: "home"
 description: "Prefab eco homes in Alicante, Spain. Sustainable construction with wood and straw, built for the Mediterranean climate."
 hero_subtitle: "Sustainable prefab homes in Spain, designed for the way you want to live"

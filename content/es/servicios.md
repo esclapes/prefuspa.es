@@ -1,5 +1,5 @@
 ---
-title: "Cómo construimos tu casa | Servicios PREFUSPA"
+title: "Cómo construimos tu casa"
 translationKey: "services"
 description: "Casas de madera y paja a medida, prefabricados modulares y tiny houses en Alicante. Descubre cómo trabajamos."
 layout: servicios

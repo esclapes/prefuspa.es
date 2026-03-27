@@ -1,12 +1,32 @@
 // Contact page
 
+// Compact hero for contact
+.contact-hero {
+  padding-top: $spacing * 4;
+  padding-bottom: $spacing * 2;
+
+  @include tablet {
+    padding-top: $spacing * 6;
+    padding-bottom: $spacing * 3;
+  }
+
+  h1 {
+    margin-bottom: $spacing * 1.5;
+  }
+
+  .hero__subtitle {
+    max-width: 600px;
+    margin-inline: auto;
+  }
+}
+
 // Contact methods — large clickable cards
 .section--contact-methods {
-  padding-block: $spacing * 4;
+  padding-block: $spacing * 3;
   background-color: $color-white;
 
   @include tablet {
-    padding-block: $spacing * 6;
+    padding-block: $spacing * 4;
   }
 }
 

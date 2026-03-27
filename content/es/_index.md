@@ -1,5 +1,5 @@
 ---
-title: "Casas prefabricadas de madera y paja en Alicante | PREFUSPA"
+title: "Casas prefabricadas de madera y paja en Alicante"
 translationKey: "home"
 description: "Construimos casas prefabricadas con madera y paja en Alicante. Hogares eficientes, saludables y listos en semanas."
 hero_subtitle: "Tu hogar, hecho de lo que la tierra nos da"

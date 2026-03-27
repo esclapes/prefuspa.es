@@ -4,6 +4,12 @@ translationKey: "gallery"
 description: "Projectes de cases sostenibles de fusta i palla construïts per PREFUSPA a Alacant."
 layout: galeria
 type: page
+value_prop:
+  title: "Construir bé també és construir amb cap"
+  content: |
+    Les cases de fusta i palla no són més cares que les convencionals. De fet, els terminis més curts i l'eficiència energètica a llarg termini les convertixen en una opció molt competitiva. Els acabats són els mateixos que trobaries en qualsevol vivenda de qualitat.
+
+    La diferència està en el que no es veu: un aïllament que funciona de veritat, materials que no emeten tòxics i un procés constructiu que genera una fracció dels residus habituals. No cal ser ecologista per a preferir viure així.
 gallery_cta:
   title: "T'agrada el que veus?"
   text: "Conta'ns el teu projecte i t'ajudem a fer-lo realitat."

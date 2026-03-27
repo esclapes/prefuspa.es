@@ -65,7 +65,7 @@ enableGitInfo = false
   pageRef = '/servicios'
   weight = 2
 [[languages.es.menus.main]]
-  name = 'Galería'
+  name = 'Proyectos'
   pageRef = '/galeria'
   weight = 3
 [[languages.es.menus.main]]
@@ -82,7 +82,7 @@ enableGitInfo = false
   pageRef = '/services'
   weight = 2
 [[languages.en.menus.main]]
-  name = 'Gallery'
+  name = 'Projects'
   pageRef = '/gallery'
   weight = 3
 [[languages.en.menus.main]]
@@ -99,7 +99,7 @@ enableGitInfo = false
   pageRef = '/serveis'
   weight = 2
 [[languages.ca.menus.main]]
-  name = 'Galeria'
+  name = 'Projectes'
   pageRef = '/galeria'
   weight = 3
 [[languages.ca.menus.main]]

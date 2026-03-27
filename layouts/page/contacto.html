@@ -1,17 +1,15 @@
 {{ define "main" }}
 
-{{/* Hero — short, with intro */}}
-<section class="hero hero--page">
-  <div class="container">
-    <header class="page__header text-center">
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.intro }}<p class="hero__subtitle">{{ . | markdownify }}</p>{{ end }}
-    </header>
+{{/* Hero — compact, centered */}}
+<section class="contact-hero">
+  <div class="container text-center">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.intro }}<p class="hero__subtitle">{{ . | markdownify }}</p>{{ end }}
   </div>
 </section>
 
-{{/* Contact methods — ABOVE THE FOLD */}}
-<section class="section section--contact-methods">
+{{/* Contact methods — immediately visible */}}
+<section class="section--contact-methods">
   <div class="container">
     <div class="contact-methods">
 
@@ -44,19 +42,7 @@
   </div>
 </section>
 
-{{/* Supporting content — below contact methods */}}
-{{ with .Params.sustainability }}
-<section class="section">
-  <div class="container container--narrow">
-    <h2>{{ .title }}</h2>
-    <div class="prose">
-      {{ .content | markdownify }}
-    </div>
-  </div>
-</section>
-{{ end }}
-
-{{/* Location + Map */}}
+{{/* Location */}}
 <section class="section section--location">
   <div class="container">
     <div class="contact-location">
