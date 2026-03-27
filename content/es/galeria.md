@@ -4,6 +4,11 @@ translationKey: "gallery"
 description: "Galería de proyectos de casas sostenibles y ecológicas de PREFUSPA."
 layout: galeria
 type: page
+gallery_cta:
+  title: "¿Te gusta lo que ves?"
+  text: "Cuéntanos tu proyecto y te ayudamos a hacerlo realidad."
+  button: "Hablemos de tu proyecto"
+  url: "/contacto/"
 projects:
   - name: "Terra i Vent"
     slug: "terra-i-vent"

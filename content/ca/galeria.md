@@ -4,6 +4,11 @@ translationKey: "gallery"
 description: "Projectes de cases sostenibles de fusta i palla construïts per PREFUSPA a Alacant."
 layout: galeria
 type: page
+gallery_cta:
+  title: "T'agrada el que veus?"
+  text: "Conta'ns el teu projecte i t'ajudem a fer-lo realitat."
+  button: "Parlem del teu projecte"
+  url: "/ca/contacte/"
 projects:
   - name: "Terra i Vent"
     slug: "terra-i-vent"

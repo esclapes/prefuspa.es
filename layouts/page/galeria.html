@@ -34,4 +34,15 @@
   </div>
 </section>
 
+{{/* Gallery CTA */}}
+{{ with .Params.gallery_cta }}
+<section class="section section--cta">
+  <div class="container text-center">
+    <h2>{{ .title }}</h2>
+    <p>{{ .text }}</p>
+    <a href="{{ .url }}" class="btn btn--primary">{{ .button }}</a>
+  </div>
+</section>
+{{ end }}
+
 {{ end }}
