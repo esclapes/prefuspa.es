@@ -114,6 +114,23 @@
   }
 }
 
+// Simple CTA (text-only, no grid split)
+.section--cta-simple {
+  background-color: $color-green;
+  padding-block: $spacing * 6;
+
+  h2 {
+    margin-bottom: $spacing * 2;
+  }
+
+  p {
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: $spacing * 3;
+    color: darken($color-green, 40%);
+  }
+}
+
 // Testimonials section
 .section--testimonials {
   background-color: $color-white;
