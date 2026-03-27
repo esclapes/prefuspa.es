@@ -13,7 +13,7 @@
         {{ range .Site.Menus.main }}
         {{ if ne .Name (i18n "nav_contact") }}
         <li>
-          <a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>
+          <a href="{{ .URL }}" {{ if eq $.RelPermalink .URL }}aria-current="page"{{ end }}>
             {{ .Name }}
           </a>
         </li>

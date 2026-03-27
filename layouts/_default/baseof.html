@@ -6,7 +6,7 @@
 <body>
   <a class="skip-link" href="#main-content">{{ i18n "skip_to_content" }}</a>
 
-  {{- partialCached "header.html" . .Site.Language.Lang -}}
+  {{- partial "header.html" . -}}
 
   <main id="main-content">
     {{- block "main" . }}{{ end -}}
