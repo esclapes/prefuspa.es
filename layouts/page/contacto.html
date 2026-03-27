@@ -45,7 +45,7 @@
             {{ .Site.Params.address.city }}, {{ .Site.Params.address.postalCode }}<br>
             {{ .Site.Params.address.region }}
           </p>
-          <a href="https://maps.google.com/?q=Prefuspa,{{ .Site.Params.address.street }},{{ .Site.Params.address.city }},{{ .Site.Params.address.postalCode }}"
+          <a href="{{ .Site.Params.address.maps_url }}"
              target="_blank" rel="noopener noreferrer" class="btn btn--outline">
             {{ i18n "how_to_get_there" }} →
           </a>

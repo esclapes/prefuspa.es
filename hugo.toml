@@ -49,6 +49,7 @@ enableGitInfo = false
     region = 'Alicante'
     postalCode = '03791'
     country = 'ES'
+    maps_url = 'https://maps.google.com/?q=Prefuspa,Príncipe+25,Vall+de+Laguar,03791'
   [params.social]
     facebook = 'https://web.facebook.com/pages/Prefuspa%20Viva%20SL/105223182396093/'
     instagram = 'https://www.instagram.com/prefuspa/'

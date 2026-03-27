@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
   <div class="container header-inner">
-    <a href="{{ .Site.Home.RelPermalink }}" class="logo" aria-label="PREFUSPA — {{ i18n "nav_home" }}">
-      <img src="/img/logo.png" alt="PREFUSPA — Prefabricats de fusta i palla" width="180" height="50">
+    <a href="{{ .Site.Home.RelPermalink }}" class="logo" aria-label="{{ .Site.Title }} — {{ i18n "nav_home" }}">
+      <img src="/img/logo.png" alt="{{ .Site.Title }}" width="180" height="50">
     </a>
 
     <button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">

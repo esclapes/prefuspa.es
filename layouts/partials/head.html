@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta name="author" content="PREFUSPA">
+<meta name="author" content="{{ .Site.Title }}">
 <link rel="canonical" href="{{ .Permalink }}">
 
 {{/* Hreflang tags */}}
@@ -36,7 +36,7 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "PREFUSPA",
+  "name": "{{ .Site.Params.company_name }}",
   "description": "{{ .Site.Params.description }}",
   "url": "{{ .Site.BaseURL }}",
   "telephone": "{{ .Site.Params.phone | replaceRE `\s` `` }}",

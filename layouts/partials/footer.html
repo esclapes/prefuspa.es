@@ -2,7 +2,7 @@
   <div class="container footer-grid">
 
     <div class="footer-brand">
-      <img src="/img/logo.png" alt="PREFUSPA" width="150" height="42">
+      <img src="/img/logo.png" alt="{{ .Site.Title }}" width="150" height="42">
       <p>{{ i18n "footer_description" }}</p>
     </div>
 
@@ -27,7 +27,7 @@
         <a href="tel:{{ .Site.Params.phone | replaceRE `\s` `` }}">{{ .Site.Params.phone }}</a>
       </p>
       <p>
-        <a href="https://maps.google.com/?q={{ .Site.Params.address.street }},{{ .Site.Params.address.city }},{{ .Site.Params.address.postalCode }}" target="_blank" rel="noopener noreferrer">
+        <a href="{{ .Site.Params.address.maps_url }}" target="_blank" rel="noopener noreferrer">
           {{ i18n "how_to_get_there" }} →
         </a>
       </p>
