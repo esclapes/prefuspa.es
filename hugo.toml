@@ -3,6 +3,7 @@ title = 'PREFUSPA — Prefabricats de fusta i palla'
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
 enableGitInfo = false
 
 [markup]
