@@ -22,17 +22,33 @@
         {{ $project := . }}
         {{ range .images }}
         <figure class="gallery-item" data-project="{{ $project.slug }}">
-          <a href="/images/gallery/{{ $project.slug }}/{{ . }}" class="gallery-item__link">
+          <button class="gallery-item__link" data-full="/images/gallery/{{ $project.slug }}/{{ . }}" data-alt="{{ $project.name }}">
             <img src="/images/gallery/{{ $project.slug }}/{{ . }}"
                  alt="{{ $project.name }}"
                  loading="lazy">
-          </a>
+          </button>
         </figure>
         {{ end }}
       {{ end }}
     </div>
   </div>
 </section>
+
+{{/* Lightbox dialog */}}
+<dialog class="lightbox" id="lightbox">
+  <div class="lightbox__content">
+    <img class="lightbox__img" src="" alt="">
+    <button class="lightbox__prev" aria-label="Previous">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lightbox__next" aria-label="Next">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+    <button class="lightbox__close" aria-label="Close">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+</dialog>
 
 {{/* Value proposition */}}
 {{ with .Params.value_prop }}

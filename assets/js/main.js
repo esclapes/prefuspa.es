@@ -58,6 +58,70 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Lightbox for gallery
+  const lightbox = document.getElementById('lightbox');
+  if (lightbox) {
+    const lbImg = lightbox.querySelector('.lightbox__img');
+    const items = [...document.querySelectorAll('.gallery-item__link[data-full]')];
+    let current = 0;
+
+    const show = (i) => {
+      current = i;
+      const btn = items[i];
+      lbImg.src = btn.dataset.full;
+      lbImg.alt = btn.dataset.alt || '';
+    };
+
+    items.forEach((btn, i) => {
+      btn.addEventListener('click', () => {
+        show(i);
+        lightbox.showModal();
+      });
+    });
+
+    lightbox.querySelector('.lightbox__prev').addEventListener('click', () => {
+      const visible = items.filter((b) => !b.closest('.is-hidden'));
+      const idx = visible.indexOf(items[current]);
+      const prev = idx > 0 ? items.indexOf(visible[idx - 1]) : items.indexOf(visible[visible.length - 1]);
+      show(prev);
+    });
+
+    lightbox.querySelector('.lightbox__next').addEventListener('click', () => {
+      const visible = items.filter((b) => !b.closest('.is-hidden'));
+      const idx = visible.indexOf(items[current]);
+      const next = idx < visible.length - 1 ? items.indexOf(visible[idx + 1]) : items.indexOf(visible[0]);
+      show(next);
+    });
+
+    lightbox.querySelector('.lightbox__close').addEventListener('click', () => {
+      lightbox.close();
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) lightbox.close();
+    });
+
+    // Keyboard: arrows + escape
+    lightbox.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') lightbox.querySelector('.lightbox__prev').click();
+      if (e.key === 'ArrowRight') lightbox.querySelector('.lightbox__next').click();
+    });
+
+    // Swipe support for mobile
+    let touchStartX = 0;
+    lightbox.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    lightbox.addEventListener('touchend', (e) => {
+      const diff = e.changedTouches[0].screenX - touchStartX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) lightbox.querySelector('.lightbox__prev').click();
+        else lightbox.querySelector('.lightbox__next').click();
+      }
+    }, { passive: true });
+  }
+
   // YouTube facade — load iframe on click
   document.querySelectorAll('.youtube-facade').forEach((facade) => {
     facade.addEventListener('click', () => {
