@@ -16,7 +16,9 @@ services:
   intro: "Som aliats en desenrotllament sostenible. Somies amb un món més verd i pròsper? En PREFUSPA, t'ajudem a fer-ho realitat."
   items:
     - name: "Cases ecològiques"
+      image: "/images/services/eco-houses.webp"
     - name: "Prefabricats"
+      image: "/images/services/prefab.webp"
   cta_text: "Vols una casa que siga bonica, còmoda i respectuosa amb el medi ambient? Sol·licita el teu pressupost i descobrix com pots construir la casa que anheles en menys temps i amb un menor impacte ambiental."
 prefab:
   subtitle: "El teu projecte comença ací"

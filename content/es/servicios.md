@@ -16,7 +16,9 @@ services:
   intro: "Somos aliados en desarrollo sostenible. ¿Sueñas con un mundo más verde y próspero? En PREFUSPA, te ayudamos a hacerlo realidad."
   items:
     - name: "Casas ecológicas"
+      image: "/images/services/eco-houses.webp"
     - name: "Prefabricados"
+      image: "/images/services/prefab.webp"
   cta_text: "¿Quieres una casa que sea hermosa, cómoda y respetuosa con el medio ambiente? Solicita tu presupuesto y descubre cómo puedes construir la casa que anhelas en menos tiempo y con un menor impacto ambiental."
 prefab:
   subtitle: "Tu proyecto comienza aquí"

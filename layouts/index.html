@@ -11,7 +11,7 @@
       {{ end }}
     </div>
     <div class="hero__image">
-      <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 16/9;"></div>
+      <img src="/images/home/hero-photo.webp" alt="{{ .Title }}" loading="eager" width="1920" height="1080">
     </div>
   </div>
 </section>
@@ -53,7 +53,11 @@
     <div class="services-grid">
       {{ range .items }}
       <div class="service-card">
-        <div class="placeholder-image" style="background-color: var(--color-cream); aspect-ratio: 4/3;"></div>
+        {{ with .image }}
+        <img src="{{ . }}" alt="" loading="lazy">
+        {{ else }}
+        <div class="placeholder-image" style="aspect-ratio: 4/3;"></div>
+        {{ end }}
         <h3>{{ .name }}</h3>
       </div>
       {{ end }}
@@ -117,7 +121,7 @@
       <a href="{{ .url }}" class="btn btn--primary">{{ .text }}</a>
     </div>
     <div class="cta-block__image">
-      <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 4/3;"></div>
+      <img src="/images/home/finished-house.webp" alt="{{ .title }}" loading="lazy">
     </div>
   </div>
 </section>

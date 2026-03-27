@@ -19,8 +19,11 @@ services:
   title: "Servicis sostenibles al teu abast"
   items:
     - name: "Cases ecològiques"
+      image: "/images/services/eco-houses.webp"
     - name: "Prefabricats"
+      image: "/images/services/prefab.webp"
     - name: "Tiny Houses"
+      image: "/images/home/render-house.webp"
   cta:
     text: "Contacta'ns i descobrix com podem ajudar-te"
     url: "/ca/contacte/"

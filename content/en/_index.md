@@ -19,8 +19,11 @@ services:
   title: "Sustainable services within your reach"
   items:
     - name: "Eco-friendly homes"
+      image: "/images/services/eco-houses.webp"
     - name: "Prefabricated buildings"
+      image: "/images/services/prefab.webp"
     - name: "Tiny Houses"
+      image: "/images/home/render-house.webp"
   cta:
     text: "Contact us and find out how we can help you"
     url: "/en/contact/"

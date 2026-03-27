@@ -8,7 +8,7 @@
       {{ with .Params.hero_text }}<p>{{ . }}</p>{{ end }}
     </div>
     <div class="hero__image">
-      <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 16/9;"></div>
+      <img src="/images/services/hero-services.webp" alt="{{ .Title }}" loading="eager">
     </div>
   </div>
 </section>
@@ -34,7 +34,11 @@
     <div class="services-grid">
       {{ range .items }}
       <div class="service-card">
-        <div class="placeholder-image" style="background-color: var(--color-cream); aspect-ratio: 4/3;"></div>
+        {{ with .image }}
+        <img src="{{ . }}" alt="" loading="lazy">
+        {{ else }}
+        <div class="placeholder-image" style="aspect-ratio: 4/3;"></div>
+        {{ end }}
         <h3>{{ .name }}</h3>
       </div>
       {{ end }}
@@ -59,7 +63,7 @@
       {{ end }}
     </div>
     <div class="section__image">
-      <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 4/3;"></div>
+      <img src="/images/home/eco-house-3.webp" alt="{{ .title }}" loading="lazy">
     </div>
   </div>
 </section>
