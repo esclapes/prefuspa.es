@@ -53,57 +53,56 @@ enableGitInfo = false
     facebook = 'https://web.facebook.com/pages/Prefuspa%20Viva%20SL/105223182396093/'
     instagram = 'https://www.instagram.com/prefuspa/'
 
-[menus]
-  [[menus.es]]
-    name = 'Inicio'
-    pageRef = '/'
-    weight = 1
-  [[menus.es]]
-    name = 'Servicios'
-    pageRef = '/servicios'
-    weight = 2
-  [[menus.es]]
-    name = 'Galería'
-    pageRef = '/galeria'
-    weight = 3
-  [[menus.es]]
-    name = 'Contacto'
-    pageRef = '/contacto'
-    weight = 4
+[[languages.es.menus.main]]
+  name = 'Inicio'
+  pageRef = '/'
+  weight = 1
+[[languages.es.menus.main]]
+  name = 'Servicios'
+  pageRef = '/servicios'
+  weight = 2
+[[languages.es.menus.main]]
+  name = 'Galería'
+  pageRef = '/galeria'
+  weight = 3
+[[languages.es.menus.main]]
+  name = 'Contacto'
+  pageRef = '/contacto'
+  weight = 4
 
-  [[menus.en]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 1
-  [[menus.en]]
-    name = 'Services'
-    pageRef = '/services'
-    weight = 2
-  [[menus.en]]
-    name = 'Gallery'
-    pageRef = '/gallery'
-    weight = 3
-  [[menus.en]]
-    name = 'Contact'
-    pageRef = '/contact'
-    weight = 4
+[[languages.en.menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 1
+[[languages.en.menus.main]]
+  name = 'Services'
+  pageRef = '/services'
+  weight = 2
+[[languages.en.menus.main]]
+  name = 'Gallery'
+  pageRef = '/gallery'
+  weight = 3
+[[languages.en.menus.main]]
+  name = 'Contact'
+  pageRef = '/contact'
+  weight = 4
 
-  [[menus.ca]]
-    name = 'Inici'
-    pageRef = '/'
-    weight = 1
-  [[menus.ca]]
-    name = 'Serveis'
-    pageRef = '/serveis'
-    weight = 2
-  [[menus.ca]]
-    name = 'Galeria'
-    pageRef = '/galeria'
-    weight = 3
-  [[menus.ca]]
-    name = 'Contacte'
-    pageRef = '/contacte'
-    weight = 4
+[[languages.ca.menus.main]]
+  name = 'Inici'
+  pageRef = '/'
+  weight = 1
+[[languages.ca.menus.main]]
+  name = 'Serveis'
+  pageRef = '/serveis'
+  weight = 2
+[[languages.ca.menus.main]]
+  name = 'Galeria'
+  pageRef = '/galeria'
+  weight = 3
+[[languages.ca.menus.main]]
+  name = 'Contacte'
+  pageRef = '/contacte'
+  weight = 4
 
 [sitemap]
   changeFreq = 'monthly'
