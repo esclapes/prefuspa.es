@@ -1,5 +1,6 @@
 ---
 title: "Contacte"
+translationKey: "contact"
 description: "Contacta amb PREFUSPA per a informació sobre cases sostenibles i ecològiques."
 layout: contacto
 ---

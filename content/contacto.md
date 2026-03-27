@@ -1,5 +1,6 @@
 ---
 title: "Permítenos hacer realidad tus proyectos de construcción sostenible"
+translationKey: "contact"
 description: "Contacta con PREFUSPA para información sobre casas sostenibles y ecológicas en Alicante."
 layout: contacto
 intro: |

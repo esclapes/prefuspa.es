@@ -38,7 +38,7 @@ enableGitInfo = false
       description = 'Cases prefabricades sostenibles i ecològiques a Alacant. Bioconstrucció amb fusta i palla.'
 
 [params]
-  phone = '653 772 074'
+  phone = '+34 653 772 074'
   whatsapp = '34653772074'
   email = 'prefuspa@gmail.com'
   company_name = 'PREFUSPA VIVA S.L.'

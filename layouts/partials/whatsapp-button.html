@@ -1,5 +1,5 @@
 {{ $msg := i18n "whatsapp_message" | urlquery }}
-<a href="https://wa.me/{{ .Site.Params.whatsapp }}?text={{ $msg }}"
+<a href="{{ printf `https://wa.me/%s?text=%s` .Site.Params.whatsapp $msg | safeURL }}"
    class="whatsapp-float"
    target="_blank"
    rel="noopener noreferrer"

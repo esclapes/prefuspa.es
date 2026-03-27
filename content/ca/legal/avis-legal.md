@@ -1,5 +1,6 @@
 ---
 title: "Avís legal"
+translationKey: "legal-notice"
 layout: legal
 ---
 

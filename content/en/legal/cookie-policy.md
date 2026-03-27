@@ -1,5 +1,6 @@
 ---
 title: "Cookie policy (EU)"
+translationKey: "cookie-policy"
 layout: legal
 ---
 

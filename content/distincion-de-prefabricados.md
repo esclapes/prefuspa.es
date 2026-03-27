@@ -1,5 +1,6 @@
 ---
 title: "Distinción de prefabricados"
+translationKey: "prefab-distinction"
 description: "Conoce los dos tipos de prefabricados de PREFUSPA: marco de madera y módulos de paja."
 ---
 

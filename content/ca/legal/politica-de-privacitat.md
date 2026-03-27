@@ -1,5 +1,6 @@
 ---
 title: "Política de privacitat"
+translationKey: "privacy-policy"
 layout: legal
 ---
 

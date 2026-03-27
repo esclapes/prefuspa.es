@@ -20,11 +20,11 @@
       <p>
         <strong>{{ i18n "address" }}:</strong><br>
         {{ .Site.Params.address.street }}, {{ .Site.Params.address.city }}, {{ .Site.Params.address.postalCode }}<br>
-        {{ .Site.Params.address.region }}, España
+        {{ .Site.Params.address.region }}
       </p>
       <p>
         <strong>{{ i18n "phone" }}:</strong><br>
-        <a href="tel:+{{ .Site.Params.phone | replaceRE `\s` `` }}">{{ .Site.Params.phone }}</a>
+        <a href="tel:{{ .Site.Params.phone | replaceRE `\s` `` }}">{{ .Site.Params.phone }}</a>
       </p>
       <p>
         <a href="https://maps.google.com/?q={{ .Site.Params.address.street }},{{ .Site.Params.address.city }},{{ .Site.Params.address.postalCode }}" target="_blank" rel="noopener noreferrer">

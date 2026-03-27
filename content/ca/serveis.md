@@ -1,5 +1,6 @@
 ---
 title: "Servicis d'arquitectura sostenible al teu abast"
+translationKey: "services"
 description: "Servicis de bioconstrucció, cases ecològiques, prefabricats i tiny houses."
 layout: servicios
 hero_text: "Les nostres cases prefabricades són un exemple de disseny innovador, que s'adapta a diverses necessitats i estils, des d'acollidors bungalous fins a àmplies residències familiars."

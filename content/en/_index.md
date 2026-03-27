@@ -1,5 +1,6 @@
 ---
 title: "PREFUSPA sustainable homes, committed to the environment"
+translationKey: "home"
 description: "Sustainable and eco-friendly prefabricated homes in Alicante. Bio-construction with wood and straw."
 hero_subtitle: "Your allies for a greener future through sustainable homes"
 hero_cta:

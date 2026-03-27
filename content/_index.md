@@ -1,5 +1,6 @@
 ---
 title: "Casas sostenibles PREFUSPA, compromiso con el medio ambiente"
+translationKey: "home"
 description: "Casas prefabricadas sostenibles y ecológicas en Alicante. Bioconstrucción con madera y paja."
 hero_subtitle: "Somos tus aliados para un futuro más verde, mediante casas sostenibles"
 hero_cta:

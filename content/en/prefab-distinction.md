@@ -1,5 +1,6 @@
 ---
 title: "Prefab Distinction"
+translationKey: "prefab-distinction"
 description: "Discover PREFUSPA's two types of prefab construction: wood frame and straw modules."
 ---
 

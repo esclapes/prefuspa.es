@@ -1,5 +1,6 @@
 ---
 title: "Accessibilitat"
+translationKey: "accessibility"
 layout: legal
 ---
 

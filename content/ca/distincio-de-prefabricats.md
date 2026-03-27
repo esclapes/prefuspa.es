@@ -1,5 +1,6 @@
 ---
 title: "Distinció de prefabricats"
+translationKey: "prefab-distinction"
 description: "Coneix els dos tipus de prefabricats de PREFUSPA: marc de fusta i mòduls de palla."
 ---
 

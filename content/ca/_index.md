@@ -1,5 +1,6 @@
 ---
 title: "Cases sostenibles PREFUSPA, compromís amb el medi ambient"
+translationKey: "home"
 description: "Cases prefabricades sostenibles i ecològiques a Alacant. Bioconstrucció amb fusta i palla."
 hero_subtitle: "Som els teus aliats per a un futur més verd, mitjançant cases sostenibles"
 hero_cta:

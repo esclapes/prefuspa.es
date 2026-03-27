@@ -1,5 +1,6 @@
 ---
 title: "Sustainable architecture services within your reach"
+translationKey: "services"
 description: "Bio-construction services, eco-friendly homes, prefabricated buildings and tiny houses."
 layout: servicios
 hero_text: "Our prefabricated homes are an example of innovative design, adapting to diverse needs and styles, from cosy bungalows to spacious family residences."

@@ -39,7 +39,7 @@
   "name": "PREFUSPA",
   "description": "{{ .Site.Params.description }}",
   "url": "{{ .Site.BaseURL }}",
-  "telephone": "+{{ .Site.Params.phone | replaceRE `\s` `` }}",
+  "telephone": "{{ .Site.Params.phone | replaceRE `\s` `` }}",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "{{ .Site.Params.address.street }}",

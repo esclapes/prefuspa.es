@@ -1,5 +1,6 @@
 ---
 title: "Galería"
+translationKey: "gallery"
 description: "Galería de proyectos de casas sostenibles y ecológicas de PREFUSPA."
 layout: galeria
 projects:
