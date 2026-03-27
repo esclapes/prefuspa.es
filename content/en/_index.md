@@ -1,5 +1,4 @@
 ---
-title: "PREFUSPA sustainable homes, committed to the environment"
 translationKey: "home"
 description: "Sustainable and eco-friendly prefabricated homes in Alicante. Bio-construction with wood and straw."
 hero_subtitle: "Your allies for a greener future through sustainable homes"
@@ -13,8 +12,7 @@ intro:
 
     Did you know that traditional construction is one of the largest emitters of greenhouse gases? By choosing a sustainable home with the PREFUSPA quality seal, you are investing in your future and in the future of the planet.
 video:
-  youtube_id: "PLACEHOLDER"
-  title: "PREFUSPA — Sustainable homes"
+  src: "/images/home/video-prefuspa.mp4"
 services:
   title: "Sustainable services within your reach"
   items:

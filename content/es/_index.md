@@ -13,8 +13,7 @@ intro:
 
     ¿Sabías que la construcción tradicional es uno de los mayores emisores de gases de efecto invernadero? Al elegir una casa sostenible con el sello de calidad de PREFUSPA, estás haciendo una inversión en tu futuro y en el del planeta. Nuestras soluciones te ayudarán a reducir tu huella de carbono, ahorrar dinero en tus facturas de energía y vivir de una manera más confortable y sostenible.
 video:
-  youtube_id: "PLACEHOLDER"
-  title: "PREFUSPA — Casas sostenibles"
+  src: "/images/home/video-prefuspa.mp4"
 services:
   title: "Servicios sostenibles a tu alcance"
   items:

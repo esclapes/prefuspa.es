@@ -13,8 +13,7 @@ intro:
 
     Sabies que la construcció tradicional és una de les majors emissores de gasos d'efecte d'hivernacle? En triar una casa sostenible amb el segell de qualitat de PREFUSPA, estàs fent una inversió en el teu futur i en el del planeta.
 video:
-  youtube_id: "PLACEHOLDER"
-  title: "PREFUSPA — Cases sostenibles"
+  src: "/images/home/video-prefuspa.mp4"
 services:
   title: "Servicis sostenibles al teu abast"
   items:
