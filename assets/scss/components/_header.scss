@@ -138,40 +138,16 @@
   }
 }
 
-// Header actions (phone + CTA button)
+// Header actions (lang switcher + CTA)
 .header-actions {
   display: flex;
   align-items: center;
-  gap: $spacing * 2;
-}
+  gap: $spacing * 1.5;
 
-.header-phone {
-  display: none;
-  align-items: center;
-  gap: $spacing;
-  color: $color-black;
-  font-size: $font-size-sm;
-  font-weight: 600;
-  text-decoration: none;
-  @include focus-visible;
-
-  @include desktop {
-    display: flex;
-  }
-
-  &:hover {
-    color: $color-pink;
-  }
-
-  svg {
-    flex-shrink: 0;
-  }
-
-  &__number {
-    display: none;
-
-    @include wide {
-      display: inline;
+  .language-switcher {
+    .lang-current {
+      padding: $spacing * 0.75 $spacing;
+      font-size: $font-size-sm;
     }
   }
 }
