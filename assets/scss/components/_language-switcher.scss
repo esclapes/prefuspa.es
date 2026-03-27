@@ -1,0 +1,62 @@
+.language-switcher {
+  position: relative;
+}
+
+.lang-current {
+  display: flex;
+  align-items: center;
+  gap: $spacing * 0.5;
+  background: none;
+  border: none;
+  font-family: $font-family;
+  font-size: $font-size-sm;
+  font-weight: 500;
+  cursor: pointer;
+  padding: $spacing $spacing * 1.5;
+  border-radius: $radius;
+  @include focus-visible;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+.icon-chevron {
+  transition: transform $transition;
+
+  .lang-current[aria-expanded="true"] & {
+    transform: rotate(180deg);
+  }
+}
+
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 140px;
+  background: $color-white;
+  border-radius: $radius;
+  box-shadow: $shadow-lg;
+  list-style: none;
+  padding: $spacing;
+  z-index: 110;
+
+  &.is-open {
+    display: block;
+  }
+
+  a {
+    display: block;
+    padding: $spacing $spacing * 1.5;
+    color: $color-black;
+    font-size: $font-size-sm;
+    border-radius: $radius * 0.5;
+    @include focus-visible;
+
+    &:hover {
+      background-color: $color-cream;
+      color: $color-pink;
+    }
+  }
+}

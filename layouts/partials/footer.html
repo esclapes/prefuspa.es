@@ -1,0 +1,56 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <img src="/img/logo.png" alt="PREFUSPA" width="150" height="42">
+      <p>{{ i18n "footer_description" }}</p>
+    </div>
+
+    <div class="footer-nav">
+      <h3>{{ i18n "menu" }}</h3>
+      <ul>
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>{{ i18n "contact_info" }}</h3>
+      <p>
+        <strong>{{ i18n "address" }}:</strong><br>
+        {{ .Site.Params.address.street }}, {{ .Site.Params.address.city }}, {{ .Site.Params.address.postalCode }}<br>
+        {{ .Site.Params.address.region }}, España
+      </p>
+      <p>
+        <strong>{{ i18n "phone" }}:</strong><br>
+        <a href="tel:+{{ .Site.Params.phone | replaceRE `\s` `` }}">{{ .Site.Params.phone }}</a>
+      </p>
+      <p>
+        <a href="https://maps.google.com/?q={{ .Site.Params.address.street }},{{ .Site.Params.address.city }},{{ .Site.Params.address.postalCode }}" target="_blank" rel="noopener noreferrer">
+          {{ i18n "how_to_get_there" }} →
+        </a>
+      </p>
+    </div>
+
+    <div class="footer-legal">
+      <h3>{{ i18n "legal" }}</h3>
+      <ul>
+        {{ if eq .Site.Language.Lang "es" }}
+        <li><a href="/legal/aviso-legal/">{{ i18n "legal_notice" }}</a></li>
+        <li><a href="/legal/politica-de-privacidad/">{{ i18n "privacy_policy" }}</a></li>
+        <li><a href="/legal/politica-de-cookies/">{{ i18n "cookie_policy" }}</a></li>
+        <li><a href="/legal/accesibilidad/">{{ i18n "accessibility" }}</a></li>
+        {{ else }}
+        {{ $legalSection := .Site.GetPage "/legal" }}
+        {{ with $legalSection }}
+          {{ range .Pages }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+
+  </div>
+</footer>

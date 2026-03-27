@@ -1,0 +1,46 @@
+.hero {
+  padding-block: $spacing * 6;
+  overflow: hidden;
+
+  @include tablet {
+    padding-block: $spacing * 8;
+  }
+}
+
+.hero--split {
+  display: grid;
+  gap: $spacing * 4;
+  align-items: center;
+
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.hero__content {
+  h1 {
+    margin-bottom: $spacing * 2;
+  }
+}
+
+.hero__subtitle {
+  font-size: $font-size-lg;
+  color: $color-gray;
+  margin-bottom: $spacing * 3;
+}
+
+.hero__image {
+  border-radius: $radius-lg;
+  overflow: hidden;
+
+  img,
+  .placeholder-image {
+    width: 100%;
+    border-radius: $radius-lg;
+  }
+}
+
+// Page hero variant (servicios, etc.)
+.hero--page {
+  background-color: $color-white;
+}

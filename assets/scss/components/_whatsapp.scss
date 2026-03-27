@@ -1,0 +1,21 @@
+.whatsapp-float {
+  position: fixed;
+  bottom: $spacing * 3;
+  right: $spacing * 3;
+  z-index: 90;
+  width: 56px;
+  height: 56px;
+  background-color: #25D366;
+  color: $color-white;
+  border-radius: 50%;
+  @include flex-center;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  transition: transform $transition, box-shadow $transition;
+  @include focus-visible;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+    color: $color-white;
+  }
+}

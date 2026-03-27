@@ -1,0 +1,74 @@
+[nav_home]
+other = "Inicio"
+
+[nav_services]
+other = "Servicios"
+
+[nav_gallery]
+other = "Galería"
+
+[nav_contact]
+other = "Contacto"
+
+[read_more]
+other = "Leer más"
+
+[contact_us]
+other = "Contáctenos"
+
+[phone]
+other = "Teléfono"
+
+[address]
+other = "Dirección"
+
+[how_to_get_there]
+other = "Cómo llegar"
+
+[legal_notice]
+other = "Aviso legal"
+
+[privacy_policy]
+other = "Política de privacidad"
+
+[cookie_policy]
+other = "Política de cookies (UE)"
+
+[accessibility]
+other = "Accesibilidad"
+
+[language]
+other = "Idioma"
+
+[whatsapp_message]
+other = "Hola, me interesa información sobre vuestras casas sostenibles."
+
+[our_services]
+other = "Nuestros servicios"
+
+[eco_houses]
+other = "Casas ecológicas"
+
+[prefab]
+other = "Prefabricados"
+
+[tiny_houses]
+other = "Tiny Houses"
+
+[testimonials_title]
+other = "Clientes que abrazan sus hogares ecológicos"
+
+[footer_description]
+other = "Descubre un hogar sostenible con Prefuspa. Nuestro compromiso con el planeta y la construcción comienza aquí."
+
+[menu]
+other = "Menú"
+
+[contact_info]
+other = "Información de contacto"
+
+[legal]
+other = "Legal"
+
+[skip_to_content]
+other = "Saltar al contenido"

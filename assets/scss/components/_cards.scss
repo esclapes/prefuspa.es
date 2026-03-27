@@ -1,0 +1,119 @@
+// Service cards
+.services-grid {
+  display: grid;
+  gap: $spacing * 3;
+  grid-template-columns: 1fr;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service-card {
+  background: $color-white;
+  border-radius: $radius-lg;
+  overflow: hidden;
+  box-shadow: $shadow;
+  transition: transform $transition, box-shadow $transition;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow-lg;
+  }
+
+  .placeholder-image,
+  img {
+    border-radius: 0;
+  }
+
+  h3 {
+    padding: $spacing * 2 $spacing * 2.5;
+    font-size: $font-size-h4;
+  }
+}
+
+// Value cards (features/pillars)
+.values-grid {
+  display: grid;
+  gap: $spacing * 3;
+  grid-template-columns: 1fr;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.value-card {
+  text-align: center;
+  padding: $spacing * 3;
+
+  &__number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: $color-green;
+    font-weight: 700;
+    margin-bottom: $spacing * 2;
+  }
+
+  h3 {
+    font-size: $font-size-base;
+    margin-bottom: $spacing;
+  }
+
+  p {
+    font-size: $font-size-sm;
+    color: $color-gray;
+  }
+}
+
+// Contact cards
+.contact-grid {
+  display: grid;
+  gap: $spacing * 4;
+  grid-template-columns: 1fr;
+
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing * 3;
+}
+
+.contact-card {
+  background: $color-white;
+  padding: $spacing * 3;
+  border-radius: $radius;
+  box-shadow: $shadow;
+
+  h2 {
+    font-size: $font-size-h4;
+    margin-bottom: $spacing * 1.5;
+  }
+
+  p {
+    color: $color-gray;
+    margin-bottom: $spacing * 2;
+  }
+}
+
+.contact-phone {
+  font-size: $font-size-h3;
+  font-weight: 700;
+  color: $color-black;
+}

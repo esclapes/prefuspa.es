@@ -1,0 +1,38 @@
+// Gallery page
+
+.gallery-grid {
+  display: grid;
+  gap: $spacing * 2;
+  grid-template-columns: 1fr;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.gallery-item {
+  border-radius: $radius;
+  overflow: hidden;
+  box-shadow: $shadow;
+  transition: transform $transition;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  img,
+  .placeholder-image {
+    border-radius: 0;
+  }
+
+  figcaption {
+    padding: $spacing * 1.5 $spacing * 2;
+    font-size: $font-size-sm;
+    color: $color-gray;
+    background: $color-white;
+  }
+}

@@ -1,0 +1,175 @@
+// Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// CSS Custom Properties (for JS access / overrides)
+:root {
+  --color-cream: #{$color-cream};
+  --color-green: #{$color-green};
+  --color-pink: #{$color-pink};
+  --color-black: #{$color-black};
+  --color-white: #{$color-white};
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $color-black;
+  background-color: $color-cream;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Typography
+h1, h2, h3, h4 {
+  line-height: $line-height-heading;
+  font-weight: 700;
+}
+
+h1 { font-size: $font-size-h1; }
+h2 { font-size: $font-size-h2; }
+h3 { font-size: $font-size-h3; }
+h4 { font-size: $font-size-h4; }
+
+// Mobile font scaling
+@media (max-width: $bp-tablet - 1) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+}
+
+a {
+  color: $color-pink;
+  text-decoration: none;
+  transition: color $transition;
+
+  &:hover {
+    color: $color-pink-dark;
+  }
+
+  @include focus-visible;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Utility classes
+.container {
+  @include container;
+}
+
+.container--narrow {
+  @include container;
+  max-width: 800px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.prose {
+  p { margin-bottom: $spacing * 2; }
+  ul, ol { margin-bottom: $spacing * 2; padding-left: $spacing * 3; }
+  li { margin-bottom: $spacing; }
+}
+
+// Skip link
+.skip-link {
+  @include sr-only;
+
+  &:focus {
+    position: fixed;
+    top: $spacing;
+    left: $spacing;
+    z-index: 9999;
+    width: auto;
+    height: auto;
+    padding: $spacing $spacing * 2;
+    clip: auto;
+    background: $color-black;
+    color: $color-white;
+    border-radius: $radius;
+  }
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: $spacing * 1.5 $spacing * 4;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: $radius;
+  cursor: pointer;
+  transition: all $transition;
+
+  @include focus-visible;
+
+  &--primary {
+    background-color: $color-pink;
+    color: $color-white;
+    border-color: $color-pink;
+
+    &:hover {
+      background-color: $color-pink-dark;
+      border-color: $color-pink-dark;
+      color: $color-white;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    color: $color-pink;
+    border-color: $color-pink;
+
+    &:hover {
+      background-color: $color-pink;
+      color: $color-white;
+    }
+  }
+
+  &--whatsapp {
+    background-color: #25D366;
+    color: $color-white;
+    border-color: #25D366;
+
+    &:hover {
+      background-color: #1DA855;
+      border-color: #1DA855;
+      color: $color-white;
+    }
+  }
+}
+
+// Placeholder image (dev only)
+.placeholder-image {
+  background-color: $color-gray-light;
+  border-radius: $radius;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    content: '📷';
+    font-size: 2rem;
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,150 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: $color-white;
+  box-shadow: $shadow;
+}
+
+.header-inner {
+  @include flex-between;
+  padding-block: $spacing * 1.5;
+  gap: $spacing * 2;
+}
+
+.logo {
+  flex-shrink: 0;
+  @include focus-visible;
+
+  img {
+    height: 40px;
+    width: auto;
+  }
+}
+
+// Mobile menu toggle
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  @include focus-visible;
+
+  @include desktop {
+    display: none;
+  }
+}
+
+.hamburger {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: $color-black;
+  position: relative;
+  transition: background $transition;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: $color-black;
+    transition: transform $transition;
+  }
+
+  &::before { top: -7px; }
+  &::after { top: 7px; }
+}
+
+// Open state
+.menu-toggle[aria-expanded="true"] .hamburger {
+  background: transparent;
+  &::before { transform: translateY(7px) rotate(45deg); }
+  &::after { transform: translateY(-7px) rotate(-45deg); }
+}
+
+// Navigation
+.main-nav {
+  display: none;
+
+  @include desktop {
+    display: flex;
+    align-items: center;
+    gap: $spacing * 3;
+  }
+
+  &.is-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: $color-white;
+    padding: $spacing * 3;
+    box-shadow: $shadow-lg;
+
+    @include desktop {
+      position: static;
+      flex-direction: row;
+      padding: 0;
+      box-shadow: none;
+    }
+  }
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing * 2;
+  list-style: none;
+
+  @include desktop {
+    flex-direction: row;
+    gap: $spacing * 3;
+  }
+
+  a {
+    color: $color-black;
+    font-weight: 500;
+    font-size: $font-size-sm;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    @include focus-visible;
+
+    &:hover,
+    &[aria-current="page"] {
+      color: $color-pink;
+    }
+
+    &[aria-current="page"] {
+      border-bottom: 2px solid $color-pink;
+      padding-bottom: 2px;
+    }
+  }
+}
+
+// Social icons in header
+.header-social {
+  display: none;
+
+  @include desktop {
+    display: flex;
+    gap: $spacing;
+  }
+
+  a {
+    color: $color-black;
+    @include focus-visible;
+
+    &:hover {
+      color: $color-pink;
+    }
+  }
+}

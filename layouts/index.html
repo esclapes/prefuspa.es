@@ -1,0 +1,126 @@
+{{ define "main" }}
+
+{{/* Hero Section */}}
+<section class="hero">
+  <div class="container">
+    <div class="hero__content">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.hero_subtitle }}<p class="hero__subtitle">{{ . }}</p>{{ end }}
+      {{ with .Params.hero_cta }}
+      <a href="{{ .url }}" class="btn btn--primary">{{ .text }}</a>
+      {{ end }}
+    </div>
+    <div class="hero__image">
+      <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 16/9;"></div>
+    </div>
+  </div>
+</section>
+
+{{/* Intro / About Section */}}
+{{ with .Params.intro }}
+<section class="section section--intro">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <div class="intro__text">
+      {{ .content | markdownify }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Video Section */}}
+{{ with .Params.video }}
+<section class="section section--video">
+  <div class="container">
+    <div class="youtube-facade" data-video-id="{{ .youtube_id }}">
+      <button class="youtube-facade__play" aria-label="Play: {{ .title }}">
+        <div class="placeholder-image" style="aspect-ratio: 16/9; background-color: var(--color-black);"></div>
+        <svg class="youtube-facade__icon" viewBox="0 0 68 48" width="68" height="48">
+          <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55C3.97 2.33 2.27 4.81 1.48 7.74.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/>
+          <path d="M45 24L27 14v20" fill="white"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Services Preview */}}
+{{ with .Params.services }}
+<section class="section section--services">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <div class="services-grid">
+      {{ range .items }}
+      <div class="service-card">
+        <div class="placeholder-image" style="background-color: var(--color-cream); aspect-ratio: 4/3;"></div>
+        <h3>{{ .name }}</h3>
+      </div>
+      {{ end }}
+    </div>
+    {{ with .cta }}
+    <p class="section__cta">
+      <a href="{{ .url }}" class="btn btn--outline">{{ .text }}</a>
+    </p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{/* Bio / Sustainability Section */}}
+{{ with .Params.sustainability }}
+<section class="section section--sustainability">
+  <div class="container">
+    <div class="highlight-box">
+      <h2>{{ .title }}</h2>
+      {{ .content | markdownify }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Values / Features */}}
+{{ with .Params.values }}
+<section class="section section--values">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <div class="values-grid">
+      {{ range .items }}
+      <div class="value-card">
+        <span class="value-card__number">{{ .number }}</span>
+        <h3>{{ .name }}</h3>
+        <p>{{ .description }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Testimonials */}}
+{{ with .Params.testimonials }}
+<section class="section section--testimonials">
+  <div class="container">
+    <h2>{{ .title | default (i18n "testimonials_title") }}</h2>
+    {{ partial "google-reviews.html" $ }}
+  </div>
+</section>
+{{ end }}
+
+{{/* Final CTA */}}
+{{ with .Params.final_cta }}
+<section class="section section--cta">
+  <div class="container">
+    <div class="cta-block">
+      <h2>{{ .title }}</h2>
+      {{ .content | markdownify }}
+      <a href="{{ .url }}" class="btn btn--primary">{{ .text }}</a>
+    </div>
+    <div class="cta-block__image">
+      <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 4/3;"></div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

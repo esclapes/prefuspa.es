@@ -1,0 +1,111 @@
+baseURL = 'https://prefuspa.com/'
+title = 'PREFUSPA — Prefabricats de fusta i palla'
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+enableGitInfo = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+  [languages.es]
+    languageName = 'Español'
+    languageCode = 'es'
+    weight = 1
+    title = 'PREFUSPA — Casas sostenibles y ecológicas'
+    [languages.es.params]
+      description = 'Casas prefabricadas sostenibles y ecológicas en Alicante. Bioconstrucción con madera y paja.'
+
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en'
+    weight = 2
+    contentDir = 'content/en'
+    title = 'PREFUSPA — Sustainable & Ecological Houses'
+    [languages.en.params]
+      description = 'Sustainable prefabricated ecological houses in Alicante, Spain. Bioconstruction with wood and straw.'
+
+  [languages.ca]
+    languageName = 'Valencià'
+    languageCode = 'ca'
+    weight = 3
+    contentDir = 'content/ca'
+    title = 'PREFUSPA — Cases sostenibles i ecològiques'
+    [languages.ca.params]
+      description = 'Cases prefabricades sostenibles i ecològiques a Alacant. Bioconstrucció amb fusta i palla.'
+
+[params]
+  phone = '653 772 074'
+  whatsapp = '34653772074'
+  email = 'prefuspa@gmail.com'
+  company_name = 'PREFUSPA VIVA S.L.'
+  cif = 'B10843001'
+  [params.address]
+    street = 'Príncipe, 25'
+    city = 'Vall de Laguar'
+    region = 'Alicante'
+    postalCode = '03791'
+    country = 'ES'
+  [params.social]
+    facebook = 'https://web.facebook.com/pages/Prefuspa%20Viva%20SL/105223182396093/'
+    instagram = 'https://www.instagram.com/prefuspa/'
+
+[menus]
+  [[menus.es]]
+    name = 'Inicio'
+    pageRef = '/'
+    weight = 1
+  [[menus.es]]
+    name = 'Servicios'
+    pageRef = '/servicios'
+    weight = 2
+  [[menus.es]]
+    name = 'Galería'
+    pageRef = '/galeria'
+    weight = 3
+  [[menus.es]]
+    name = 'Contacto'
+    pageRef = '/contacto'
+    weight = 4
+
+  [[menus.en]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 1
+  [[menus.en]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 2
+  [[menus.en]]
+    name = 'Gallery'
+    pageRef = '/gallery'
+    weight = 3
+  [[menus.en]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 4
+
+  [[menus.ca]]
+    name = 'Inici'
+    pageRef = '/'
+    weight = 1
+  [[menus.ca]]
+    name = 'Serveis'
+    pageRef = '/serveis'
+    weight = 2
+  [[menus.ca]]
+    name = 'Galeria'
+    pageRef = '/galeria'
+    weight = 3
+  [[menus.ca]]
+    name = 'Contacte'
+    pageRef = '/contacte'
+    weight = 4
+
+[sitemap]
+  changeFreq = 'monthly'
+  priority = 0.5
+  filename = 'sitemap.xml'

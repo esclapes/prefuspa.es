@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<section class="page">
+  <div class="container">
+    <header class="page__header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="page__subtitle">{{ . }}</p>{{ end }}
+    </header>
+
+    {{/* Project filters */}}
+    {{ with .Params.projects }}
+    <div class="gallery-filters" role="tablist" aria-label="Filter projects">
+      <button class="gallery-filter is-active" data-filter="all" role="tab" aria-selected="true">Todo</button>
+      {{ range . }}
+      <button class="gallery-filter" data-filter="{{ .slug }}" role="tab" aria-selected="false">{{ .name }}</button>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="gallery-grid">
+      {{ with .Params.projects }}
+        {{ range . }}
+          {{ range seq 2 }}
+          <figure class="gallery-item" data-project="{{ (index $.Params.projects (sub (sub . 1) 0)).slug }}">
+            <div class="placeholder-image" style="background-color: var(--color-cream); aspect-ratio: 4/3;"></div>
+          </figure>
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ range seq 8 }}
+        <figure class="gallery-item">
+          <div class="placeholder-image" style="background-color: var(--color-cream); aspect-ratio: 4/3;"></div>
+        </figure>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir="ltr">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  <a class="skip-link" href="#main-content">{{ i18n "skip_to_content" }}</a>
+
+  {{- partialCached "header.html" . .Site.Language.Lang -}}
+
+  <main id="main-content">
+    {{- block "main" . }}{{ end -}}
+  </main>
+
+  {{- partialCached "footer.html" . .Site.Language.Lang -}}
+  {{- partial "whatsapp-button.html" . -}}
+
+  {{- $js := resources.Get "js/main.js" -}}
+  {{- if $js -}}
+    {{- $js = $js | minify | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{- end -}}
+</body>
+</html>

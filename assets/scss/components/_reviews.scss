@@ -1,0 +1,64 @@
+// Google Reviews widget container
+.testimonials-grid {
+  display: grid;
+  gap: $spacing * 3;
+  grid-template-columns: 1fr;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.testimonial-card {
+  background: $color-white;
+  padding: $spacing * 3;
+  border-radius: $radius;
+  box-shadow: $shadow;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: $spacing * 1.5;
+    margin-bottom: $spacing * 2;
+  }
+
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__avatar-placeholder {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: $color-green;
+    @include flex-center;
+    font-weight: 700;
+    font-size: $font-size-lg;
+    color: $color-black;
+    flex-shrink: 0;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: $font-size-sm;
+  }
+
+  &__stars {
+    color: #F5A623;
+    font-size: $font-size-sm;
+    margin-bottom: $spacing;
+  }
+
+  &__text {
+    font-size: $font-size-sm;
+    color: $color-gray;
+    line-height: 1.5;
+  }
+}

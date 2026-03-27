@@ -1,0 +1,20 @@
+{{/* Google Reviews Widget with static fallback */}}
+<div class="testimonials-grid" id="google-reviews">
+  {{/* Static fallback from data/testimonials.yml */}}
+  {{ range site.Data.testimonials }}
+  <div class="testimonial-card">
+    <div class="testimonial-card__header">
+      <div class="testimonial-card__avatar-placeholder">{{ substr .name 0 1 }}</div>
+      <span class="testimonial-card__name">{{ .name }}</span>
+    </div>
+    <div class="testimonial-card__stars">
+      {{ range seq .stars }}★{{ end }}
+    </div>
+    {{ with .text }}
+    <p class="testimonial-card__text">{{ . }}</p>
+    {{ else }}
+    <p class="testimonial-card__text"><em>{{ i18n "left_rating" | default "Este usuario dejó una calificación." }}</em></p>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

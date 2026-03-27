@@ -1,0 +1,5 @@
+{{/* CTA Button shortcode */}}
+{{ $href := .Get "href" | default "/contacto/" }}
+{{ $text := .Get "text" | default (i18n "contact_us") }}
+{{ $style := .Get "style" | default "primary" }}
+<a href="{{ $href }}" class="btn btn--{{ $style }}">{{ $text }}</a>

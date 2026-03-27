@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+{{/* Hero */}}
+<section class="hero hero--page">
+  <div class="container hero--split">
+    <div class="hero__content">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.hero_text }}<p>{{ . }}</p>{{ end }}
+    </div>
+    <div class="hero__image">
+      <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 16/9;"></div>
+    </div>
+  </div>
+</section>
+
+{{/* About section */}}
+{{ with .Params.about }}
+<section class="section">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <div class="prose text-center">
+      {{ .content | markdownify }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Services Grid */}}
+{{ with .Params.services }}
+<section class="section section--services">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <p class="section__intro">{{ .intro }}</p>
+    <div class="services-grid">
+      {{ range .items }}
+      <div class="service-card">
+        <div class="placeholder-image" style="background-color: var(--color-cream); aspect-ratio: 4/3;"></div>
+        <h3>{{ .name }}</h3>
+      </div>
+      {{ end }}
+    </div>
+    {{ with .cta_text }}
+    <p class="section__cta">{{ . }}</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{/* Prefab info */}}
+{{ with .Params.prefab }}
+<section class="section section--highlight">
+  <div class="container section--split">
+    <div class="section__text">
+      {{ with .subtitle }}<span class="section__label">{{ . }}</span>{{ end }}
+      <h2>{{ .title }}</h2>
+      {{ .content | markdownify }}
+      {{ with .cta }}
+      <a href="{{ .url }}" class="btn btn--primary">{{ .text }}</a>
+      {{ end }}
+    </div>
+    <div class="section__image">
+      <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 4/3;"></div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,21 @@
+// Variables & Mixins
+@import 'variables';
+@import 'mixins';
+
+// Base
+@import 'base';
+
+// Components
+@import 'components/header';
+@import 'components/footer';
+@import 'components/hero';
+@import 'components/cards';
+@import 'components/whatsapp';
+@import 'components/reviews';
+@import 'components/language-switcher';
+
+// Page layouts
+@import 'layouts/home';
+@import 'layouts/services';
+@import 'layouts/gallery';
+@import 'layouts/contact';

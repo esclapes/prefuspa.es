@@ -1,0 +1,96 @@
+{{ define "main" }}
+
+<section class="hero hero--page">
+  <div class="container">
+    <header class="page__header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.intro }}<p class="hero__subtitle">{{ . | markdownify }}</p>{{ end }}
+    </header>
+  </div>
+</section>
+
+{{/* Sustainability philosophy */}}
+{{ with .Params.sustainability }}
+<section class="section">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <div class="prose">
+      {{ .content | markdownify }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Destination section */}}
+{{ with .Params.destination }}
+<section class="section">
+  <div class="container">
+    <h2>{{ .title }}</h2>
+    <div class="prose">
+      {{ .content | markdownify }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Contact info cards */}}
+<section class="section section--contact-info">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-card">
+          <h2>{{ i18n "address" }}</h2>
+          <p>
+            {{ .Site.Params.address.street }}<br>
+            {{ .Site.Params.address.city }}, {{ .Site.Params.address.postalCode }}<br>
+            {{ .Site.Params.address.region }}, España
+          </p>
+          <a href="https://maps.google.com/?q=Prefuspa,{{ .Site.Params.address.street }},{{ .Site.Params.address.city }},{{ .Site.Params.address.postalCode }}"
+             target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+            {{ i18n "how_to_get_there" }} →
+          </a>
+        </div>
+
+        <div class="contact-card">
+          <h2>{{ i18n "phone" }}</h2>
+          <p>
+            <a href="tel:+{{ .Site.Params.phone | replaceRE `\s` `` }}" class="contact-phone">
+              {{ .Site.Params.phone }}
+            </a>
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <h2>Email</h2>
+          <p>
+            <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <h2>WhatsApp</h2>
+          {{ $msg := i18n "whatsapp_message" | urlquery }}
+          <p>
+            <a href="https://wa.me/{{ .Site.Params.whatsapp }}?text={{ $msg }}"
+               target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp">
+              WhatsApp →
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-image">
+        <div class="placeholder-image" style="background-color: var(--color-green); aspect-ratio: 4/3;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* Closing message */}}
+<section class="section section--cta">
+  <div class="container text-center">
+    <h2>Tu mensaje es el comienzo de un hogar ecológico. ¡Hablemos de sostenibilidad y comencemos a construir tu sueño!</h2>
+  </div>
+</section>
+
+{{ end }}

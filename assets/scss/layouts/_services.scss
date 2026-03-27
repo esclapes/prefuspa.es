@@ -1,0 +1,28 @@
+// Services page specific styles
+
+.section--highlight {
+  background-color: $color-white;
+  padding-block: $spacing * 6;
+
+  @include tablet {
+    padding-block: $spacing * 8;
+  }
+}
+
+.section--split {
+  .section__text {
+    h2 {
+      margin-bottom: $spacing * 2;
+    }
+
+    p {
+      margin-bottom: $spacing * 2;
+      color: $color-gray;
+    }
+  }
+
+  .section__image {
+    border-radius: $radius-lg;
+    overflow: hidden;
+  }
+}
