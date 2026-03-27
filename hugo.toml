@@ -16,6 +16,7 @@ enableGitInfo = false
     languageName = 'Español'
     languageCode = 'es'
     weight = 1
+    contentDir = 'content/es'
     title = 'PREFUSPA — Casas sostenibles y ecológicas'
     [languages.es.params]
       description = 'Casas prefabricadas sostenibles y ecológicas en Alicante. Bioconstrucción con madera y paja.'
