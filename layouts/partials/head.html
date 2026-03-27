@@ -27,7 +27,7 @@
 {{ end }}
 
 {{/* OG Image */}}
-{{ $ogImage := "/images/home/hero-photo.webp" }}
+{{ $ogImage := "/images/og-default.jpg" }}
 {{ with .Params.og_image }}{{ $ogImage = . }}{{ end }}
 <meta property="og:image" content="{{ $ogImage | absURL }}">
 <meta property="og:image:width" content="1920">
