@@ -3,6 +3,7 @@ title: "Servicios de arquitectura sostenible a tu alcance"
 translationKey: "services"
 description: "Servicios de bioconstrucción, casas ecológicas, prefabricados y tiny houses."
 layout: servicios
+type: page
 hero_text: "Nuestras casas prefabricadas son un ejemplo de diseño innovador, que se adapta a diversas necesidades y estilos, desde acogedores bungalows hasta amplias residencias familiares."
 about:
   title: "Tu hogar, un oasis de la arquitectura sostenible"

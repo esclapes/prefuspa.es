@@ -3,6 +3,7 @@ title: "Permítenos hacer realidad tus proyectos de construcción sostenible"
 translationKey: "contact"
 description: "Contacta con PREFUSPA para información sobre casas sostenibles y ecológicas en Alicante."
 layout: contacto
+type: page
 closing_message: "Tu mensaje es el comienzo de un hogar ecológico. ¡Hablemos de sostenibilidad y comencemos a construir tu sueño!"
 intro: |
   En PREFUSPA, creemos que la construcción sostenible es la clave para un futuro mejor. Es por eso que nos especializamos en casas ecológicas que son eficientes energéticamente, respetuosas con el medio ambiente y saludables para las personas.

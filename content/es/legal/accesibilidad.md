@@ -2,6 +2,7 @@
 title: "Accesibilidad"
 translationKey: "accessibility"
 layout: legal
+type: page
 ---
 
 PREFUSPA se ha comprometido a hacer accesibles sus Sitios web de conformidad con el Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público.

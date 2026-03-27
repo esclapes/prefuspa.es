@@ -2,6 +2,7 @@
 title: "Política de cookies (UE)"
 translationKey: "cookie-policy"
 layout: legal
+type: page
 ---
 
 *Esta política de cookies fue actualizada por última vez el 22 de noviembre de 2023 y se aplica a los ciudadanos y residentes legales permanentes del Espacio Económico Europeo y Suiza.*

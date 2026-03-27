@@ -3,6 +3,7 @@ title: "Contacte"
 translationKey: "contact"
 description: "Contacta amb PREFUSPA per a informació sobre cases sostenibles i ecològiques."
 layout: contacto
+type: page
 intro: |
   En PREFUSPA, creiem que la construcció sostenible és la clau per a un futur millor. Per això ens especialitzem en cases ecològiques que són eficients energèticament, respectuoses amb el medi ambient i saludables per a les persones.
 sustainability:

@@ -3,6 +3,7 @@ title: "Contact"
 translationKey: "contact"
 description: "Contact PREFUSPA for information about sustainable and eco-friendly homes."
 layout: contacto
+type: page
 intro: |
   At PREFUSPA, we believe that sustainable construction is the key to a better future. That is why we specialise in eco-friendly homes that are energy-efficient, environmentally responsible and healthy for people.
 sustainability:

@@ -2,6 +2,7 @@
 title: "Aviso legal"
 translationKey: "legal-notice"
 layout: legal
+type: page
 ---
 
 ## LEY DE LOS SERVICIOS DE LA SOCIEDAD DE LA INFORMACIÓN (LSSI)

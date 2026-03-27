@@ -2,6 +2,7 @@
 title: "Política de privacidad"
 translationKey: "privacy-policy"
 layout: legal
+type: page
 ---
 
 ## 1. INFORMACIÓN AL USUARIO

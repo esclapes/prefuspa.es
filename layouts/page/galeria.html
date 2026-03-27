@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="page">
+<section class="page gallery-page">
   <div class="container">
     <header class="page__header">
       <h1>{{ .Title }}</h1>
@@ -18,18 +18,15 @@
     {{ end }}
 
     <div class="gallery-grid">
-      {{ with .Params.projects }}
-        {{ range . }}
-          {{ range seq 2 }}
-          <figure class="gallery-item" data-project="{{ (index $.Params.projects (sub (sub . 1) 0)).slug }}">
-            <div class="placeholder-image" style="background-color: var(--color-cream); aspect-ratio: 4/3;"></div>
-          </figure>
-          {{ end }}
-        {{ end }}
-      {{ else }}
-        {{ range seq 8 }}
-        <figure class="gallery-item">
-          <div class="placeholder-image" style="background-color: var(--color-cream); aspect-ratio: 4/3;"></div>
+      {{ range .Params.projects }}
+        {{ $project := . }}
+        {{ range .images }}
+        <figure class="gallery-item" data-project="{{ $project.slug }}">
+          <a href="/images/gallery/{{ $project.slug }}/{{ . }}" class="gallery-item__link">
+            <img src="/images/gallery/{{ $project.slug }}/{{ . }}"
+                 alt="{{ $project.name }}"
+                 loading="lazy">
+          </a>
         </figure>
         {{ end }}
       {{ end }}

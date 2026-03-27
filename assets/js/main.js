@@ -31,6 +31,33 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Gallery filter
+  const filters = document.querySelectorAll('.gallery-filter');
+  const items = document.querySelectorAll('.gallery-item');
+
+  if (filters.length && items.length) {
+    filters.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+
+        filters.forEach((b) => {
+          b.classList.remove('is-active');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        btn.classList.add('is-active');
+        btn.setAttribute('aria-pressed', 'true');
+
+        items.forEach((item) => {
+          if (filter === 'all' || item.dataset.project === filter) {
+            item.classList.remove('is-hidden');
+          } else {
+            item.classList.add('is-hidden');
+          }
+        });
+      });
+    });
+  }
+
   // YouTube facade — load iframe on click
   document.querySelectorAll('.youtube-facade').forEach((facade) => {
     facade.addEventListener('click', () => {
