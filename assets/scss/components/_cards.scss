@@ -1,7 +1,7 @@
 // Service cards
 .services-grid {
   display: grid;
-  gap: $spacing * 3;
+  gap: $spacing * 4;
   grid-template-columns: 1fr;
 
   @include tablet {
@@ -19,10 +19,12 @@
   overflow: hidden;
   box-shadow: $shadow;
   transition: transform $transition, box-shadow $transition;
+  border-bottom: 3px solid transparent;
 
   &:hover {
     transform: translateY(-4px);
     box-shadow: $shadow-lg;
+    border-bottom-color: $color-green;
   }
 
   .placeholder-image,
@@ -31,7 +33,7 @@
   }
 
   h3 {
-    padding: $spacing * 2 $spacing * 2.5;
+    padding: $spacing * 2.5 $spacing * 3;
     font-size: $font-size-h4;
   }
 }
@@ -53,16 +55,25 @@
 
 .value-card {
   text-align: center;
-  padding: $spacing * 3;
+  padding: $spacing * 4 $spacing * 3;
+  background: $color-cream;
+  border-radius: $radius-lg;
+  transition: transform $transition;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
 
   &__number {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     background: $color-green;
     font-weight: 700;
+    font-size: $font-size-lg;
     margin-bottom: $spacing * 2;
   }
 
@@ -74,6 +85,7 @@
   p {
     font-size: $font-size-sm;
     color: $color-gray;
+    line-height: 1.5;
   }
 }
 

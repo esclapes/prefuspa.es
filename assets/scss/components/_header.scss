@@ -8,8 +8,12 @@
 
 .header-inner {
   @include flex-between;
-  padding-block: $spacing * 1.5;
-  gap: $spacing * 2;
+  padding-block: $spacing * 2;
+  gap: $spacing * 3;
+
+  @include desktop {
+    padding-block: $spacing * 2.5;
+  }
 }
 
 .logo {
@@ -17,8 +21,12 @@
   @include focus-visible;
 
   img {
-    height: 40px;
+    height: 44px;
     width: auto;
+
+    @include desktop {
+      height: 50px;
+    }
   }
 }
 
