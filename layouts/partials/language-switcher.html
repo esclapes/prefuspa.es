@@ -1,14 +1,14 @@
 {{ if .IsTranslated }}
 <div class="language-switcher" role="navigation" aria-label="{{ i18n "language" }}">
   <button class="lang-current" aria-expanded="false" aria-haspopup="true">
-    {{ .Site.Language.LanguageName }}
-    <svg class="icon-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+    {{ if eq .Site.Language.Lang "ca" }}VA{{ else }}{{ upper .Site.Language.Lang }}{{ end }}
+    <svg class="icon-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
   </button>
   <ul class="lang-dropdown">
     {{ range .AllTranslations }}
     <li>
       <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}">
-        {{ .Language.LanguageName }}
+        {{ if eq .Language.Lang "ca" }}VA{{ else }}{{ upper .Language.Lang }}{{ end }}
       </a>
     </li>
     {{ end }}
