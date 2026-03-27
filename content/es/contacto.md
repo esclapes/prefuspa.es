@@ -1,20 +1,20 @@
 ---
-title: "Permítenos hacer realidad tus proyectos de construcción sostenible"
+title: "Hablemos de tu proyecto | Contacto PREFUSPA"
 translationKey: "contact"
-description: "Contacta con PREFUSPA para información sobre casas sostenibles y ecológicas en Alicante."
+description: "Contacta con PREFUSPA. Construimos casas de madera y paja en Alicante. Cuéntanos tu idea y te asesoramos sin compromiso."
 layout: contacto
 type: page
-closing_message: "Tu mensaje es el comienzo de un hogar ecológico. ¡Hablemos de sostenibilidad y comencemos a construir tu sueño!"
+closing_message: "Cada casa empieza con una conversación. Escríbenos o llámanos y vemos juntos cómo dar forma a tu idea."
 intro: |
-  En PREFUSPA, creemos que la construcción sostenible es la clave para un futuro mejor. Es por eso que nos especializamos en casas ecológicas que son eficientes energéticamente, respetuosas con el medio ambiente y saludables para las personas.
+  Tanto si tienes un proyecto definido como si acabas de empezar a darle vueltas, estamos aquí para ayudarte. Cuéntanos qué tienes en mente y te orientamos sin ningún compromiso.
 sustainability:
-  title: "Sostenibilidad, el corazón de nuestra filosofía"
+  title: "Construir bien también es construir con cabeza"
   content: |
-    Con los crecientes desafíos ambientales que enfrentamos hoy, construir de forma responsable no es una opción, es una obligación ineludible. Las casas ecológicas ya no son tendencias, son la nueva norma. Además, la creciente industrialización de la construcción sostenible permite hoy excelentes acabados y costes muy competitivos.
+    Las casas de madera y paja no son más caras que las convencionales. De hecho, los plazos más cortos y la eficiencia energética a largo plazo las convierten en una opción muy competitiva. Los acabados son los mismos que encontrarías en cualquier vivienda de calidad.
 
-    Y no se trata solo de consciencia ecologista. Los considerables ahorros en consumo energético e insumos que proporcionan estas visionarias propuestas habitacionales aportan la cuota económica para decidirse por la sostenibilidad. Gracias a los avances tecnológicos ya es posible acceder a propuestas más amigables sin sacrificar confort o solidez. ¿Listo para iniciar tu próximo proyecto con nosotros?
+    La diferencia está en lo que no se ve: un aislamiento que funciona de verdad, materiales que no emiten tóxicos y un proceso constructivo que genera una fracción de los residuos habituales. No hace falta ser ecologista para preferir vivir así.
 destination:
-  title: "Somos tu destino para la construcción de casas ecológicas"
+  title: "Estamos en Alicante, trabajamos en toda la zona"
   content: |
-    En PREFUSPA, creemos que la sostenibilidad no es un lujo, sino una necesidad. Es por eso que ofrecemos una amplia gama de servicios de construcción de casas ecológicas en Alicante. Desde diseño sostenible hasta la construcción llave en mano, te acompañamos en cada paso del camino.
+    Nuestro taller está en Alicante, pero montamos proyectos en toda la provincia y alrededores. Desde el primer boceto hasta la entrega de llaves, un único equipo se encarga de todo. Sin subcontratas innecesarias, sin sorpresas.
 ---

@@ -1,21 +1,21 @@
 ---
-title: "Casas sostenibles PREFUSPA, compromiso con el medio ambiente"
+title: "Casas prefabricadas de madera y paja en Alicante | PREFUSPA"
 translationKey: "home"
-description: "Casas prefabricadas sostenibles y ecológicas en Alicante. Bioconstrucción con madera y paja."
-hero_subtitle: "Somos tus aliados para un futuro más verde, mediante casas sostenibles"
+description: "Construimos casas prefabricadas con madera y paja en Alicante. Hogares eficientes, saludables y listos en semanas."
+hero_subtitle: "Tu hogar, hecho de lo que la tierra nos da"
 hero_cta:
-  text: "Contáctenos"
+  text: "Hablemos de tu proyecto"
   url: "/contacto/"
 intro:
-  title: "Somos tus aliados para un futuro más verde, mediante casas sostenibles"
+  title: "Construimos diferente porque vivir bien importa"
   content: |
-    En PREFUSPA, creemos que el futuro es verde. Es por eso que nos especializamos en la construcción de casas sostenibles que no solo son hermosas, funcionales y cómodas, sino que también son respetuosas con el medio ambiente. Nuestras viviendas están diseñadas para ser eficientes energéticamente, utilizando materiales sostenibles y tecnologías de vanguardia.
+    Hacemos casas con madera y paja. Así de simple y así de revolucionario. Son materiales que llevan siglos demostrando que funcionan, pero ahora los combinamos con ingeniería moderna para crear viviendas que respiran, regulan su temperatura de forma natural y duran generaciones.
 
-    ¿Sabías que la construcción tradicional es uno de los mayores emisores de gases de efecto invernadero? Al elegir una casa sostenible con el sello de calidad de PREFUSPA, estás haciendo una inversión en tu futuro y en el del planeta. Nuestras soluciones te ayudarán a reducir tu huella de carbono, ahorrar dinero en tus facturas de energía y vivir de una manera más confortable y sostenible.
+    El resultado es una casa que se construye en semanas, no en meses. Que en verano se mantiene fresca sin apenas aire acondicionado. Que en invierno conserva el calor sin disparar la factura. Y que, de paso, deja una huella mínima en el entorno. Porque cuidar el planeta y vivir mejor no deberían ser cosas separadas.
 video:
   src: "/images/home/video-prefuspa.mp4"
 services:
-  title: "Servicios sostenibles a tu alcance"
+  title: "Tres formas de llegar a tu hogar ideal"
   items:
     - name: "Casas ecológicas"
       image: "/images/services/eco-houses.webp"
@@ -24,37 +24,37 @@ services:
     - name: "Tiny Houses"
       image: "/images/home/render-house.webp"
   cta:
-    text: "Contáctanos y descubre cómo podemos ayudarte"
+    text: "Cuéntanos qué tienes en mente"
     url: "/contacto/"
 sustainability:
-  title: "Bioconstrucción, la clave para un hogar saludable y sostenible"
+  title: "Bioconstrucción: cuando tu casa cuida de ti"
   content: |
-    En PREFUSPA, creemos que tu hogar debe ser un refugio para tu cuerpo y mente. Es por eso que nos especializamos en bioconstrucción, un método de construcción para crear espacios saludables y sostenibles.
+    Una casa de bioconstrucción no es solo una vivienda con materiales naturales. Es un espacio donde el aire que respiras es más limpio, donde las paredes regulan la humedad sin máquinas y donde la temperatura se mantiene estable casi sin consumo energético.
 
-    Las casas construidas con materiales naturales son más eficientes energéticamente, tienen una mejor calidad del aire interior y son más sanas. Además, la bioconstrucción reduce el impacto ambiental y contribuye a la protección del medio ambiente. ¡Haz una inversión inteligente en el presente para el futuro de las próximas generaciones!
+    La madera y la paja son aislantes extraordinarios, transpirables y renovables. No emiten compuestos tóxicos. No generan residuos que tarden siglos en desaparecer. Y crean un ambiente interior que se nota desde el primer momento en que cruzas la puerta. Quien ha vivido en una casa así no vuelve al hormigón.
 values:
-  title: "Nuestra pasión por las viviendas ecológicas y la sostenibilidad"
+  title: "Lo que nos mueve cada día"
   items:
     - number: "1"
-      name: "Hogares ecológicos y saludables"
-      description: "Nuestros clientes pueden disfrutar de un entorno interior limpio y saludable para mejorar su calidad de vida."
+      name: "Salud en cada rincón"
+      description: "Materiales naturales que no emiten tóxicos. Aire interior limpio sin purificadores. Un hogar que cuida tu bienestar sin que tengas que pensarlo."
     - number: "2"
-      name: "Sostenibilidad"
-      description: "La construcción de nuestras hogares no dejará una huella insostenible, contribuyendo a un planeta más verde."
+      name: "Respeto por el entorno"
+      description: "Madera de bosques gestionados, paja de cultivos locales, residuos mínimos en obra. Construir sin dejar rastro negativo es posible."
     - number: "3"
-      name: "Rapidez en la ejecución"
-      description: "Ofrecemos métodos de ejecución rápidos sin comprometer la calidad, desarrollando proyectos constructivos de manera eficiente."
+      name: "Tu casa, en semanas"
+      description: "La fabricación en taller reduce los plazos drásticamente. Menos tiempo de obra, menos molestias y el mismo nivel de acabado que esperarías de una construcción a medida."
     - number: "4"
-      name: "Innovación y eficiencia a servicio del medio ambiente"
-      description: "Apostamos a dar un paso hacia un futuro más responsable con la construcción de viviendas ecológicas."
+      name: "Eficiencia sin renuncias"
+      description: "Facturas energéticas mínimas, confort térmico todo el año y un diseño que se adapta a tu forma de vivir. Sin compromisos."
 testimonials:
-  title: "Clientes que abrazan sus hogares ecológicos"
+  title: "Lo que dicen quienes ya viven en sus casas"
 final_cta:
-  title: "Casas sostenibles, el futuro de la construcción"
+  title: "Tu próximo hogar puede ser diferente"
   content: |
-    La construcción de una casa sostenible es un acto de amor por tu planeta. Por eso, cada vivienda que edificamos es un paso hacia un futuro mejor, en el que las personas y la naturaleza viven en armonía.
+    Cada casa que construimos nace de una conversación. De entender cómo vives, qué necesitas y qué sueñas. Después, le damos forma con los mejores materiales que la naturaleza ofrece y la precisión que la tecnología permite.
 
-    ¡Únete a nuestro compromiso con la sostenibilidad y haz realidad la casa de tus sueños con PREFUSPA!
-  text: "Conoce nuestros servicios"
+    Si llevas tiempo dándole vueltas a la idea de construir, este es un buen momento para empezar a concretarla.
+  text: "Descubre cómo trabajamos"
   url: "/servicios/"
 ---

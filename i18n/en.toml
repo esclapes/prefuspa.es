@@ -14,7 +14,7 @@ other = "Contact"
 other = "Read more"
 
 [contact_us]
-other = "Contact us"
+other = "Get in touch"
 
 [phone]
 other = "Phone"
@@ -41,13 +41,13 @@ other = "Accessibility"
 other = "Language"
 
 [whatsapp_message]
-other = "Hello, I'm interested in information about your sustainable houses."
+other = "Hi! I'd like to know more about your prefab eco homes."
 
 [our_services]
 other = "Our services"
 
 [eco_houses]
-other = "Eco houses"
+other = "Eco homes"
 
 [prefab]
 other = "Prefab"
@@ -56,10 +56,10 @@ other = "Prefab"
 other = "Tiny Houses"
 
 [testimonials_title]
-other = "Clients who embrace their eco homes"
+other = "What our homeowners say"
 
 [footer_description]
-other = "Discover a sustainable home with Prefuspa. Our commitment to the planet and construction starts here."
+other = "Sustainable prefab homes in Alicante, Spain. Built with wood and straw for the Mediterranean climate."
 
 [menu]
 other = "Menu"

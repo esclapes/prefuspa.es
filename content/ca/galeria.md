@@ -1,7 +1,7 @@
 ---
-title: "Galeria"
+title: "Galeria de projectes"
 translationKey: "gallery"
-description: "Galeria de projectes de cases sostenibles i ecològiques de PREFUSPA."
+description: "Projectes de cases sostenibles de fusta i palla construïts per PREFUSPA a Alacant."
 layout: galeria
 type: page
 projects:

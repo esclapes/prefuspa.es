@@ -1,33 +1,33 @@
 ---
-title: "Sustainable architecture services within your reach"
+title: "Eco homes and prefab construction in Alicante"
 translationKey: "services"
-description: "Bio-construction services, eco-friendly homes, prefabricated buildings and tiny houses."
+description: "Custom eco homes, modular prefab buildings and tiny houses in Alicante, Spain. Sustainable construction with wood and straw."
 layout: servicios
 type: page
-hero_text: "Our prefabricated homes are an example of innovative design, adapting to diverse needs and styles, from cosy bungalows to spacious family residences."
+hero_text: "From a family home to a tiny house for your plot: we design, manufacture and install wood-and-straw homes tailored to your life."
 about:
-  title: "Your home, an oasis of sustainable architecture"
+  title: "Sustainable homes built for real life"
   content: |
-    We believe that sustainable architecture is the key to creating a better world. It is not only about building energy-efficient homes that reduce environmental impact. It is also about creating comfortable spaces for people. That is why we specialise in the design and construction of dwellings that minimise environmental impact and contribute to the circular economy.
+    Not all prefab homes are the same. Ours are designed with natural materials -- structural timber and straw insulation -- that deliver thermal and acoustic performance difficult to match with conventional systems. The result is a comfortable, efficient and durable home.
 
-    We use high-quality sustainable materials to build homes that are energy-efficient, durable and healthy for both people and the planet. In addition, we integrate cutting-edge technologies to optimise energy and water consumption, as well as improve indoor air quality. Join our commitment to sustainability and build the home of your dreams!
+    We work each project from scratch. We study the plot, the local climate and the way you live to propose a house that genuinely works -- not a standard catalogue with your name on it. And we do it with build times that traditional construction simply cannot offer.
 services:
   title: "Our services"
-  intro: "We are your allies in sustainable development. Do you dream of a greener, more prosperous world? At PREFUSPA, we help you make it a reality."
+  intro: "Every project has its own path. These are ours."
   items:
-    - name: "Eco-friendly homes"
+    - name: "Eco homes"
       image: "/images/services/eco-houses.webp"
-    - name: "Prefabricated buildings"
+    - name: "Prefab buildings"
       image: "/images/services/prefab.webp"
-  cta_text: "Would you like a home that is beautiful, comfortable and environmentally friendly? Request your quote and discover how you can build the home you desire in less time and with a lower environmental impact."
+  cta_text: "Have you got a plot and an idea? That is all we need to get started. Tell us about your project and we will prepare a no-obligation proposal."
 prefab:
   subtitle: "Your project starts here"
-  title: "Prefabricated homes, the smart solution for your home"
+  title: "Prefab homes: faster, smarter, greener"
   content: |
-    Prefabricated homes are rapidly gaining popularity as a modern, efficient and sustainable alternative to traditional construction. These homes are manufactured in a factory, then transported and assembled at the final location, reducing construction time and environmental impact.
+    Our homes are built in the workshop, piece by piece, with a level of quality control that traditional on-site construction cannot match. Every panel, every joint, every layer of insulation is checked before it leaves the factory. Then it is transported to your plot and assembled in a matter of weeks.
 
-    Did you know that prefabricated homes can be built in just a few weeks and can save you up to 20% on total construction costs? They are also more energy-efficient, helping you save money on your energy bills. Another important fact is that they are more resistant to earthquakes and offer better indoor air quality.
+    This process has real advantages: shorter timelines, more predictable costs, less waste and superior build precision. But the most important thing is that the finished home does not look "prefab". It looks, quite simply, like a well-built house.
   cta:
-    text: "Contact us for more information about our projects!"
+    text: "Let's talk about your project"
     url: "/en/contact/"
 ---

@@ -1,59 +1,60 @@
 ---
+title: "Sustainable Prefab Homes in Alicante, Spain | PREFUSPA"
 translationKey: "home"
-description: "Sustainable and eco-friendly prefabricated homes in Alicante. Bio-construction with wood and straw."
-hero_subtitle: "Your allies for a greener future through sustainable homes"
+description: "Prefab eco homes in Alicante, Spain. Sustainable construction with wood and straw, built for the Mediterranean climate."
+hero_subtitle: "Sustainable prefab homes in Spain, designed for the way you want to live"
 hero_cta:
-  text: "Contact us"
+  text: "Let's talk about your project"
   url: "/en/contact/"
 intro:
-  title: "Your allies for a greener future through sustainable homes"
+  title: "Beautiful homes that happen to be kind to the planet"
   content: |
-    At PREFUSPA, we believe a greener future is possible. That is why we specialise in building sustainable homes that are not only beautiful, functional and comfortable, but also environmentally friendly.
+    We build homes with wood and straw -- materials that have worked for centuries, now combined with modern engineering to create houses that breathe, regulate their own temperature naturally and last for generations.
 
-    Did you know that traditional construction is one of the largest emitters of greenhouse gases? By choosing a sustainable home with the PREFUSPA quality seal, you are investing in your future and in the future of the planet.
+    The result is a home with lower energy bills, healthier indoor air and a dramatically smaller environmental footprint. Construction takes weeks rather than months, and the finished house looks and feels like any high-quality build. The only difference is what it is made of -- and that difference matters.
 video:
   src: "/images/home/video-prefuspa.mp4"
 services:
-  title: "Sustainable services within your reach"
+  title: "What we build"
   items:
-    - name: "Eco-friendly homes"
+    - name: "Eco homes"
       image: "/images/services/eco-houses.webp"
-    - name: "Prefabricated buildings"
+    - name: "Prefab buildings"
       image: "/images/services/prefab.webp"
     - name: "Tiny Houses"
       image: "/images/home/render-house.webp"
   cta:
-    text: "Contact us and find out how we can help you"
+    text: "Tell us what you have in mind"
     url: "/en/contact/"
 sustainability:
-  title: "Bio-construction, the key to a healthy and sustainable home"
+  title: "Natural building for a healthier home"
   content: |
-    At PREFUSPA, we believe your home should be a haven that promotes your well-being. That is why we specialise in bio-construction, a building method designed to create healthy and sustainable spaces.
+    Our homes use wood frames, compressed straw insulation and lime renders -- all natural, breathable materials that regulate humidity and temperature without mechanical systems working overtime. The indoor air quality is noticeably better from the moment you step inside.
 
-    Homes built with natural materials are more energy-efficient, offer better indoor air quality and are healthier. In addition, bio-construction reduces environmental impact and contributes to the protection of the environment.
+    Straw is one of the best insulating materials available: renewable, locally sourced and capable of thermal performance two to three times better than conventional walls. Combined with responsibly sourced timber, it creates a building envelope that keeps you cool in summer, warm in winter and comfortable all year round.
 values:
-  title: "Our passion for eco-friendly homes and sustainability"
+  title: "Why families choose PREFUSPA"
   items:
     - number: "1"
-      name: "Eco-friendly and healthy homes"
-      description: "Our clients can enjoy a clean and healthy indoor environment that improves their quality of life."
+      name: "Healthier living"
+      description: "Natural materials that emit no toxins. Cleaner indoor air without purifiers. A home that looks after your wellbeing without you having to think about it."
     - number: "2"
-      name: "Sustainability"
-      description: "The construction of our homes leaves no unsustainable footprint, contributing to a greener planet."
+      name: "Genuinely sustainable"
+      description: "Timber from managed forests, straw from local farms, minimal construction waste. Building without leaving a negative trace is possible."
     - number: "3"
-      name: "Speed of execution"
-      description: "We offer fast construction methods without compromising quality, delivering building projects efficiently."
+      name: "Built faster"
+      description: "Factory fabrication cuts build times dramatically. Less disruption, fewer delays and the same quality of finish you would expect from a custom build."
     - number: "4"
-      name: "Innovation and efficiency in service of the environment"
-      description: "We are committed to taking a step towards a more responsible future through the construction of eco-friendly homes."
+      name: "Smart design for the climate"
+      description: "Minimal energy bills, year-round thermal comfort and a layout designed around the way you actually live. No compromises."
 testimonials:
-  title: "Clients who embrace their eco-friendly homes"
+  title: "What our homeowners say"
 final_cta:
-  title: "Sustainable homes, the future of construction"
+  title: "Your sustainable home in Spain starts here"
   content: |
-    Building a sustainable home is an act of love for your planet. That is why every home we build is a step towards a better future, where people and nature live in harmony.
+    Whether you are planning a family home, a rural retreat or a holiday rental, every project we build begins with a conversation. We listen to how you live, what you need and what you dream of, then shape it with the best materials nature offers and the precision that modern technology allows.
 
-    Join our commitment to sustainability and make your dream home a reality with PREFUSPA!
-  text: "Discover our services"
+    If you have been thinking about building in Spain, this is a good moment to start making it real.
+  text: "See how we work"
   url: "/en/services/"
 ---

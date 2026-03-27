@@ -1,15 +1,17 @@
 ---
 title: "Distinción de prefabricados"
 translationKey: "prefab-distinction"
-description: "Conoce los dos tipos de prefabricados de PREFUSPA: marco de madera y módulos de paja."
+description: "Dos sistemas constructivos de PREFUSPA: estructura de marco de madera y módulos aislados con paja."
 ---
 
 ## Marco de madera
 
-Representan la perfecta combinación de la naturalidad de la madera con la durabilidad y versatilidad de la misma, para darle un toque distintivo a cada proyecto.
+El sistema de marco de madera utiliza una estructura portante de montantes y travesaños que forma el esqueleto de la vivienda. Es un método probado durante siglos en el norte de Europa y Norteamérica, adaptado aquí al clima mediterráneo.
 
-Cada marco de madera es meticulosamente diseñado y fabricado, con base en una amplia experiencia en la industria de la construcción, asegurando solidez y seguridad para tu hogar. Esta opción es ideal para quienes valoran un enfoque tradicional con una estética clásica y con la posibilidad de lograr una personalización excepcional.
+Su gran ventaja es la flexibilidad: permite plantas abiertas, grandes ventanales y una personalización total del diseño interior y exterior. La madera, además, ofrece un aislamiento natural muy superior al del acero o el hormigón, y envejece bien si se trata correctamente.
 
 ## Módulos de paja
 
-Están a la vanguardia de la construcción sostenible. Cada módulo es meticulosamente diseñado para minimizar el impacto ambiental y maximizar la eficiencia energética, representando una solución ecoamigable de alta calidad y confiabilidad. Si buscas una alternativa innovadora y comprometida con la protección del planeta, son la elección perfecta para hacer realidad tu visión de un hogar sostenible.
+Los módulos de paja utilizan fardos comprimidos como material de aislamiento dentro de paneles estructurales. La paja es un subproducto agrícola abundante y local, con una capacidad aislante extraordinaria: una pared de paja puede alcanzar valores de aislamiento térmico dos o tres veces superiores a los de un muro convencional.
+
+El resultado es una casa que necesita muy poca energía para climatizarse, con un ambiente interior estable y confortable durante todo el año. Y no, la paja no se pudre ni arde: correctamente instalada y protegida, es tan duradera y segura como cualquier material de construcción moderno.

@@ -1,21 +1,21 @@
 ---
 title: "Contacte"
 translationKey: "contact"
-description: "Contacta amb PREFUSPA per a informació sobre cases sostenibles i ecològiques."
+description: "Contacta amb PREFUSPA. Cases sostenibles de fusta i palla a Alacant."
 layout: contacto
 type: page
 intro: |
-  En PREFUSPA, creiem que la construcció sostenible és la clau per a un futur millor. Per això ens especialitzem en cases ecològiques que són eficients energèticament, respectuoses amb el medi ambient i saludables per a les persones.
+  Tens un projecte al cap? Vols saber com funciona la construcció amb fusta i palla? Escriu-nos o telefona'ns. Estem a la Vall de Laguar, però treballem per tota la província d'Alacant i més enllà.
 sustainability:
-  title: "Sostenibilitat, el cor de la nostra filosofia"
+  title: "Per què construir de forma sostenible"
   content: |
-    Amb els creixents desafiaments ambientals que afrontem hui, construir de forma responsable no és una opció, és una obligació ineludible. Les cases ecològiques ja no són tendències, són la nova norma. A més, la creixent industrialització de la construcció sostenible permet hui excel·lents acabats i costos molt competitius.
+    Amb els reptes ambientals que tenim davant, construir de forma responsable ja no és una opció: és una necessitat. Les cases ecològiques han deixat de ser una raresa per a convertir-se en la millor alternativa. I gràcies a la industrialització, els acabats i els preus són cada vegada més competitius.
 
-    I no es tracta sols de consciència ecologista. Els considerables estalvis en consum energètic i recursos que proporcionen estes visionàries propostes habitacionals aporten la quota econòmica per a decidir-se per la sostenibilitat. Gràcies als avanços tecnològics ja és possible accedir a propostes més amigables sense sacrificar confort ni solidesa. Preparat per a iniciar el teu pròxim projecte amb nosaltres?
+    Però no es tracta només de consciència ambiental. L'estalvi en energia i recursos que oferixen estes cases és real i tangible: menys factures, més confort, i la tranquil·litat de saber que la teua llar cuida del planeta. Preparat per a donar el pas?
 destination:
-  title: "Som la teua destinació per a la construcció de cases ecològiques"
+  title: "T'acompanyem en tot el procés"
   content: |
-    En PREFUSPA, creiem que la sostenibilitat no és un luxe, sinó una necessitat. Per això oferim una àmplia gamma de servicis de construcció de cases ecològiques a Alacant. Des del disseny sostenible fins a la construcció claus en mà, t'acompanyem en cada pas del camí.
+    Des del primer esbós fins a l'entrega de claus, estem al teu costat. Disseny sostenible, construcció amb fusta i palla, i un equip que s'implica en cada projecte. Treballem a Alacant i rodalies, i ens encanta el que fem.
 ---
 
-## PREFUSPA: la construcció sostenible a l'abast de les teues mans
+## Parlem? Estem ací per a ajudar-te

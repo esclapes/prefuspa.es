@@ -14,7 +14,7 @@ other = "Contacto"
 other = "Leer más"
 
 [contact_us]
-other = "Contáctenos"
+other = "Contactar"
 
 [phone]
 other = "Teléfono"
@@ -41,7 +41,7 @@ other = "Accesibilidad"
 other = "Idioma"
 
 [whatsapp_message]
-other = "Hola, me interesa información sobre vuestras casas sostenibles."
+other = "Hola, me interesa saber más sobre vuestras casas de madera y paja."
 
 [our_services]
 other = "Nuestros servicios"
@@ -56,10 +56,10 @@ other = "Prefabricados"
 other = "Tiny Houses"
 
 [testimonials_title]
-other = "Clientes que abrazan sus hogares ecológicos"
+other = "Lo que dicen quienes ya viven en sus casas"
 
 [footer_description]
-other = "Descubre un hogar sostenible con Prefuspa. Nuestro compromiso con el planeta y la construcción comienza aquí."
+other = "Casas prefabricadas de madera y paja en Alicante. Diseño a medida, construcción responsable."
 
 [menu]
 other = "Menú"

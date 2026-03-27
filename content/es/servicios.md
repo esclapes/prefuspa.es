@@ -1,33 +1,33 @@
 ---
-title: "Servicios de arquitectura sostenible a tu alcance"
+title: "Cómo construimos tu casa | Servicios PREFUSPA"
 translationKey: "services"
-description: "Servicios de bioconstrucción, casas ecológicas, prefabricados y tiny houses."
+description: "Casas de madera y paja a medida, prefabricados modulares y tiny houses en Alicante. Descubre cómo trabajamos."
 layout: servicios
 type: page
-hero_text: "Nuestras casas prefabricadas son un ejemplo de diseño innovador, que se adapta a diversas necesidades y estilos, desde acogedores bungalows hasta amplias residencias familiares."
+hero_text: "Desde una casa familiar hasta una tiny house para tu parcela: diseñamos, fabricamos e instalamos viviendas de madera y paja adaptadas a tu vida."
 about:
-  title: "Tu hogar, un oasis de la arquitectura sostenible"
+  title: "Construir bien empieza por elegir bien"
   content: |
-    Creemos que la arquitectura sostenible es la clave para crear un mundo mejor. No solo se trata de construir casas que sean eficientes energéticamente y reduzcan el impacto ambiental. También, crear espacios confortables para las personas. Es por eso que nos especializamos en el diseño y construcción de viviendas que minimicen el impacto ambiental y contribuyan a la economía circular.
+    No todas las casas prefabricadas son iguales. Las nuestras se diseñan con materiales naturales --madera estructural y aislamiento de paja-- que ofrecen un rendimiento térmico y acústico difícil de igualar con sistemas convencionales. El resultado es una vivienda confortable, eficiente y duradera.
 
-    Utilizamos materiales sostenibles de alta calidad para construir viviendas que son eficientes energéticamente, duraderas y saludables para las personas y el planeta. Además, integramos tecnologías de última generación para optimizar el consumo de energía y agua, así como mejorar la calidad del aire interior. ¡Únete a nuestro compromiso con la sostenibilidad y construye la casa de tus sueños!
+    Trabajamos cada proyecto desde cero. Estudiamos el terreno, el clima de la zona y tu forma de vivir para proponerte una casa que funcione de verdad, no un catálogo estándar con tu nombre encima. Y lo hacemos con plazos de obra que la construcción tradicional no puede ofrecer.
 services:
   title: "Nuestros servicios"
-  intro: "Somos aliados en desarrollo sostenible. ¿Sueñas con un mundo más verde y próspero? En PREFUSPA, te ayudamos a hacerlo realidad."
+  intro: "Cada proyecto tiene su camino. Estos son los nuestros."
   items:
     - name: "Casas ecológicas"
       image: "/images/services/eco-houses.webp"
     - name: "Prefabricados"
       image: "/images/services/prefab.webp"
-  cta_text: "¿Quieres una casa que sea hermosa, cómoda y respetuosa con el medio ambiente? Solicita tu presupuesto y descubre cómo puedes construir la casa que anhelas en menos tiempo y con un menor impacto ambiental."
+  cta_text: "¿Tienes un terreno y una idea? Con eso nos basta para empezar. Cuéntanos tu proyecto y te preparamos una propuesta sin compromiso."
 prefab:
   subtitle: "Tu proyecto comienza aquí"
-  title: "Casas prefabricadas, la solución inteligente para tu hogar"
+  title: "Prefabricado no significa estándar"
   content: |
-    Las casas prefabricadas están ganando popularidad rápidamente como una alternativa moderna, eficiente y sostenible a la construcción tradicional. Estas casas son industrializadas en fábrica; luego se transportan y montan en el emplazamiento final, lo que reduce el tiempo de construcción y el impacto ambiental.
+    Nuestras viviendas se fabrican en taller, pieza a pieza, con un control de calidad que la obra tradicional no permite. Cada panel, cada unión, cada aislamiento se revisa antes de salir de fábrica. Después se transporta a tu parcela y se monta en cuestión de semanas.
 
-    ¿Sabías que las casas prefabricadas se pueden construir en pocas semanas, y que pueden ahorrarte hasta un 20% en el costo total de construcción? Además, son más eficientes energéticamente, lo que te ayudará a ahorrar dinero en tus facturas de energía. Otro dato importante es que son más resistentes a los terremotos, y ofrecen una mejor calidad del aire interior.
+    Este proceso tiene ventajas reales: plazos más cortos, costes más predecibles, menos residuos y una precisión constructiva superior. Pero lo más importante es que el resultado final no parece "prefabricado". Parece, sencillamente, una buena casa.
   cta:
-    text: "¡Contáctanos para obtener más información sobre nuestros proyectos!"
+    text: "Hablemos de tu proyecto"
     url: "/contacto/"
 ---

@@ -11,10 +11,10 @@ other = "Galeria"
 other = "Contacte"
 
 [read_more]
-other = "Llegir més"
+other = "Més informació"
 
 [contact_us]
-other = "Contacteu-nos"
+other = "Contacta'ns"
 
 [phone]
 other = "Telèfon"
@@ -56,10 +56,10 @@ other = "Prefabricats"
 other = "Tiny Houses"
 
 [testimonials_title]
-other = "Clients que abracen les seues llars ecològiques"
+other = "Què diuen els nostres clients"
 
 [footer_description]
-other = "Descobreix una llar sostenible amb Prefuspa. El nostre compromís amb el planeta i la construcció comença ací."
+other = "Cases sostenibles de fusta i palla, fetes des de la Vall de Laguar. El nostre compromís amb el planeta comença ací."
 
 [menu]
 other = "Menú"
@@ -71,7 +71,7 @@ other = "Informació de contacte"
 other = "Legal"
 
 [skip_to_content]
-other = "Saltar al contingut"
+other = "Anar al contingut"
 
 [left_rating]
 other = "Este usuari va deixar una valoració."
