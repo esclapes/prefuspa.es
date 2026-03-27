@@ -26,5 +26,5 @@ prefab:
     Did you know that prefabricated homes can be built in just a few weeks and can save you up to 20% on total construction costs? They are also more energy-efficient, helping you save money on your energy bills. Another important fact is that they are more resistant to earthquakes and offer better indoor air quality.
   cta:
     text: "Contact us for more information about our projects!"
-    url: "/contacto/"
+    url: "/en/contact/"
 ---

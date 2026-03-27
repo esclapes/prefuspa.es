@@ -1,5 +1,36 @@
 // Gallery page
 
+.gallery-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing;
+  margin-bottom: $spacing * 4;
+}
+
+.gallery-filter {
+  background: none;
+  border: 2px solid $color-gray-light;
+  border-radius: $radius;
+  padding: $spacing $spacing * 2;
+  font-family: $font-family;
+  font-size: $font-size-sm;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all $transition;
+  @include focus-visible;
+
+  &:hover {
+    border-color: $color-pink;
+    color: $color-pink;
+  }
+
+  &.is-active {
+    background: $color-pink;
+    border-color: $color-pink;
+    color: $color-white;
+  }
+}
+
 .gallery-grid {
   display: grid;
   gap: $spacing * 2;

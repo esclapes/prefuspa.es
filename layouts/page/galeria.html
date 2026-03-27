@@ -9,10 +9,10 @@
 
     {{/* Project filters */}}
     {{ with .Params.projects }}
-    <div class="gallery-filters" role="tablist" aria-label="Filter projects">
-      <button class="gallery-filter is-active" data-filter="all" role="tab" aria-selected="true">Todo</button>
+    <div class="gallery-filters">
+      <button class="gallery-filter is-active" data-filter="all" aria-pressed="true">{{ i18n "all" }}</button>
       {{ range . }}
-      <button class="gallery-filter" data-filter="{{ .slug }}" role="tab" aria-selected="false">{{ .name }}</button>
+      <button class="gallery-filter" data-filter="{{ .slug }}" aria-pressed="false">{{ .name }}</button>
       {{ end }}
     </div>
     {{ end }}

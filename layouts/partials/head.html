@@ -10,7 +10,7 @@
   {{ range .AllTranslations }}
   <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
   {{ end }}
-  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+  {{ range .AllTranslations }}{{ if eq .Lang "es" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}
 {{ end }}
 
 {{/* Open Graph */}}
@@ -51,6 +51,11 @@
 }
 </script>
 
+{{/* Google Fonts — preconnect first for performance */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 {{/* SCSS */}}
 {{ $scss := resources.Get "scss/main.scss" }}
 {{ if $scss }}
@@ -62,8 +67,3 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
   {{ end }}
 {{ end }}
-
-{{/* Google Fonts — Montserrat */}}
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">

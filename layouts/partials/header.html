@@ -1,4 +1,4 @@
-<header class="site-header" role="banner">
+<header class="site-header">
   <div class="container header-inner">
     <a href="{{ .Site.Home.RelPermalink }}" class="logo" aria-label="{{ .Site.Title }} — {{ i18n "nav_home" }}">
       <img src="/img/logo.png" alt="{{ .Site.Title }}" width="180" height="50">
@@ -8,7 +8,7 @@
       <span class="hamburger"></span>
     </button>
 
-    <nav id="main-nav" class="main-nav" role="navigation" aria-label="{{ i18n "menu" }}">
+    <nav id="main-nav" class="main-nav" aria-label="{{ i18n "menu" }}">
       <ul class="nav-list">
         {{ range .Site.Menus.main }}
         <li>

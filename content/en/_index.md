@@ -5,7 +5,7 @@ description: "Sustainable and eco-friendly prefabricated homes in Alicante. Bio-
 hero_subtitle: "Your allies for a greener future through sustainable homes"
 hero_cta:
   text: "Contact us"
-  url: "/contacto/"
+  url: "/en/contact/"
 intro:
   title: "Your allies for a greener future through sustainable homes"
   content: |
@@ -23,7 +23,7 @@ services:
     - name: "Tiny Houses"
   cta:
     text: "Contact us and find out how we can help you"
-    url: "/contacto/"
+    url: "/en/contact/"
 sustainability:
   title: "Bio-construction, the key to a healthy and sustainable home"
   content: |
@@ -54,5 +54,5 @@ final_cta:
 
     Join our commitment to sustainability and make your dream home a reality with PREFUSPA!
   text: "Discover our services"
-  url: "/servicios/"
+  url: "/en/services/"
 ---

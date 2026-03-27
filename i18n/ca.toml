@@ -72,3 +72,12 @@ other = "Legal"
 
 [skip_to_content]
 other = "Saltar al contingut"
+
+[left_rating]
+other = "Este usuari va deixar una valoració."
+
+[all]
+other = "Tot"
+
+[email]
+other = "Email"

@@ -72,3 +72,12 @@ other = "Legal"
 
 [skip_to_content]
 other = "Skip to content"
+
+[left_rating]
+other = "This user left a rating."
+
+[all]
+other = "All"
+
+[email]
+other = "Email"

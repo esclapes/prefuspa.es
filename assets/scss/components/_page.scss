@@ -1,0 +1,68 @@
+// Generic page styles (single, list, legal)
+.page {
+  padding-block: $spacing * 4;
+
+  @include tablet {
+    padding-block: $spacing * 6;
+  }
+}
+
+.page__header {
+  margin-bottom: $spacing * 4;
+
+  h1 {
+    margin-bottom: $spacing * 1.5;
+  }
+}
+
+.page__subtitle {
+  font-size: $font-size-lg;
+  color: $color-gray;
+}
+
+.page__content {
+  max-width: 800px;
+}
+
+.page--legal {
+  .page__content {
+    font-size: $font-size-sm;
+
+    h2 {
+      font-size: $font-size-h3;
+      margin-top: $spacing * 4;
+      margin-bottom: $spacing * 2;
+    }
+
+    h3 {
+      font-size: $font-size-h4;
+      margin-top: $spacing * 3;
+      margin-bottom: $spacing * 1.5;
+    }
+
+    ul {
+      list-style-type: disc;
+    }
+  }
+}
+
+.page-list {
+  list-style: none;
+
+  li {
+    padding: $spacing * 1.5 0;
+    border-bottom: 1px solid $color-gray-light;
+  }
+
+  a {
+    font-weight: 500;
+  }
+}
+
+.intro__text {
+  max-width: 800px;
+  margin-inline: auto;
+  text-align: center;
+  font-size: $font-size-lg;
+  color: $color-gray;
+}
